@@ -1,0 +1,226 @@
+
+---< COLLECTIBLES & EXTRAS >---
+An Arena Unlock - Contains 3 Drowned Pantheon themed arenas. - (Difficulty: Hard)
+Water Blob Unlock - Unlocks the modded Water Blob in sandbox mode. - (Difficulty: Easy)
+Big Spider Unlock - Unlocks the (vanilla) big spider in sandbox mode. I warn you its quite well hidden... - (Difficulty: Medium)
+
+Green Data Pearl - (Difficulty: Very Hard)
+Brown Data Pearl - (Difficulty: Medium)
+
+Twelve Faded Petals, Closed Eyes - You encountered the echo of Twelve Faded Petals, Closed Eyes - (Difficulty: Medium)
+
+- Old Drowned Pantheon - 
+Ever wondered what the region looked like several years ago? It was completely different! If you're curious, you can download it from here:
+https://drive.google.com/file/d/16yN6XJ_iFe3mVxYKNwhdEUideWTZ1CDb/view?usp=sharing
+
+---< CREDITS >---
+Port:
+Sequoia
+Niaveterror815
+Tat011
+Myr did like, saint versions of a few rooms
+
+V1.5:
+(Last updated: 17/7/2022)
+Credits list maintained by: 1MINISKIDI
+
+Notice: There are still some [Unknown]s, mostly because I couldn't confirm who did them.
+Regardless, big thanks to everyone who has helped to build this region! It is really great to see something like this come together.
+
+
+---< Audio >---
+
+All custom ambient sounds - Aureuix
+
+Custom music / ambient tracks: 
+"Bomp Swamp" - VRZ
+"Earthen Maw" - VRZ
+"Interstellar" - Aureuix
+"Crash" - Aureuix
+"End of Days" - kaeporo
+"Rainsong" - kaeporo
+"Belse" - kaeporo
+
+
+---< Art >---
+
+Level editor tiles & props:
+Bell - [Unknown]
+FancyBell - DrCorporalKlinger
+Tiny Pots - doggo
+3x3 pipes - Matten
+3x3 pipe ends & connectors - 1MINISKIDI
+Edited brick tiles - 1MINISKIDI
+Temple Pillar Broken - [Unknown]
+Temple Pillar Arch - Dakras
+
+In-game decals:
+MustardScav - EyeMeat
+graf4 - Tuchdalizard
+graf7 - Tuchdalizard
+BellDemon - kaeporo
+
+Region landscape scene:
+Concept art - kaisumisu
+Layer 1 (vegetation) - [Unknown]
+Layer 2 (bell and pipes) - [Unknown]
+Layer 3 (bell) - [Unknown]
+Background (corridor) - kaisumisu
+
+
+---< Mods >---
+
+Water Blob creature: - The one who screams i guess - (yes that's their username apparently)
+Water Blob icon: - Ледяная Соня
+Water Blobs fix: - LB / M4rbleL1ne
+
+Sandbox Unlock Core: - The one who screams i guess
+
+Custom Regions Support: - Garrakx & SlimeCubed
+
+End-of-Cycle Rainsong trigger: - HelloThere
+
+Region Kit: - The Region Kit Team
+
+
+---< Levels >---
+
+-"Original", as in being the original creator of the level before it was revamped
+-"Edit", as in making small to medium changes to a level
+-"Revamped", as in redesigning the entire level
+
+GATE_DS_DP - cappin
+GATE_SB_DP - cappin
+GATE_DP_SH - 1MINISKIDI
+
+DP_basiccon - cappin - Edit: 1MINISKIDI
+DP_belltower - cappin - Edit: ching & 1MINISKIDI
+DP_bellwall - cappin - Edit: 1MINISKIDI
+DP_BOGGATE - cappin - Edit: 1MINISKIDI
+DP_bridgetosec - cappin
+DP_brokensegment - cappin - Edit: 1MINISKIDI
+DP_connectiontodarkex - cappin - Edit: 1MINISKIDI
+
+DP_DE04 - Original: ThiccNugger - Revamped: 1MINISKIDI
+DP_DE07 - cappin - Edit: 1MINISKIDI
+DP_DEA08 - 1MINISKIDI
+DP_DE09 - Dog
+DP_DE10 - Nautillo
+DP_DE11 - Dog - Edit: 1MINISKIDI
+DP_DE12 - 1MINISKDII
+
+DP_FE01 - 1MINISKIDI
+DP_FE02 - Dakras
+DP_FE03 - Original: [Unknown] - Split into DP_FE031 & DP_FE032 by: 1MINISKIDI
+DP_FE031 - Revamped: 1MINISKIDI
+DP_FE032 - Revamped: 1MINISKIDI
+DP_FE04 - Original: GooGroker - Revamped: 1MINISKIDI
+DP_FE05 - Original: Masuix - Revamped: 1MINISKIDI
+DP_FEA06 - kitten / FELINE - Edit: 1MINISKIDI
+DP_FEA07 - Matten
+DP_FE08 - Nautillo - Edit: 1MINISKIDI
+DP_FE09 - kaeporo
+DP_FES01 - kaeporo
+DP_FES02 - kaeporo
+
+DP_FIS01 - cappin
+DP_FI02 - Hathrar
+DP_FI04 - Original: turtle - Revamped: 1MINISKIDI
+DP_FI05 - Original: ching - Revamped: 1MINISKIDI
+DP_FIA07 - kaisumisu
+DP_FIA08 - Matten - Edit: 1MINISKIDI
+DP_FIA09 - Original: turtle - Revamped: Myrmice
+DP_FIA10 - Original: Handsome Dodo - Revamped: Jevmen
+DP_FI11 - Myrmice
+DP_FI12 - Myrmice
+DP_FI13 - Myrmice
+
+DP_IN01 - Original: Alpharius - Revamped: 1MINISKIDI
+DP_IN03 - Ehsper
+DP_IN04 - Original: kaisumisu - Revamped: 1MINISKIDI
+DP_IN05 - doggo - Edit: 1MINISKIDI
+DP_INA06 - Rob - Edit: 1MINISKIDI
+DP_IN07 - [Unknown]
+DP_IN08 - 1MINISKIDI - Edit: kaeporo
+
+DP_KA1 - kaeporo
+DP_KA2 - kaeporo
+
+DP_LES01 - 1MINISKIDI
+DP_LE03 - Ironbound / Prad - Edit: 1MINISKIDI
+DP_LEA04 - Original: Ocean_Polluter - Revamped: Jevmen
+DP_LE05 - Original: Precipitator - Revamped: stero
+DP_LEA07 - Ehsper - Edit: 1MINISKIDI
+DP_LES08 - Original: ching - Revamped: 1MINISKIDI
+DP_LE09 - Precipitator - Edit: Storm027 & 1MINISKIDI
+DP_LE10 - Myrmice - Edit: 1MINISKIDI
+DP_LE11 - Precipitator & 1MINISKIDI
+DP_LE12 - 1MINISKIDI
+
+DP_pipedown - cappin - Edit: 1MINISKIDI
+DP_simplecon - cappin - Edit: 1MINISKIDI
+
+DP_TB01 - Original: ching - Revamped: 1MINISKIDI
+DP_TB02 - Original: Drift - Revamped: 1MINISKIDI
+DP_TB03 - Original: EyeMeat - Revamped: 1MINISKIDI
+DP_TB05 - Matten - Edit: klum & 1MINISKIDI
+DP_TBA06 - kitten / FELINE - Edit: 1MINISKIDI
+DP_TB07 - Sl4nder - Edit: 1MINISKIDI
+DP_TB08 - Myrmice
+
+DP_trashshelter - [Unknown]
+DP_finalshelter - cappin
+
+DS_DP1 - 1MINISKIDI
+DS_DP2 - 1MINISKIDI
+
+SB_DP1 - 1MINISKIDI
+SB_DP2 - 1MINISKIDI
+
+SH_boggate - cappin
+SH_DPCONNECTION - cappin - Edit: 1MINISKIDI
+SH_S99 - cappin
+
+---< Miscellaneous >---
+
+Room settings changes: - ching - Nautillo - Precipitator - 1MINISKIDI - kaeporo
+Creature changes: - 1MINISKIDI
+In-game map landscape drawings - 1MINISKIDI
+
+Echo dialogue & Data pearl texts: - kip
+
+Arena levels:
+"Nave" - kaeporo
+"Transept" - klum
+"Choir" - Jevmen & carrotpudding
+
+---< Special Thanks >---
+
+- VRZ / Just a Gamer -
+- Garrakx -
+For coming up with the whole region jam idea and starting this like 3 years ago
+
+- [Nobody] -
+For abandoning this project
+
+- Precipitator -
+For bringing this project back to life
+
+- 1MINISKIDI -
+For all the work & keeping this region from dying ever since
+
+- Bro -
+For providing lots of really helpful feedback for improving the region
+
+- Myrmice -
+- kaeporo -
+For helping a lot with finishing the region
+
+
+
+
+- And you! -
+For playing this region we've worked so hard on! <3
+
+I'd like to hear your thoughts! Feel free to chat, ask questions, or insult me if you got anything to say. @ discord user 1MINISKIDI#6712
+I don't check it very often but I will always try to answer to you all.

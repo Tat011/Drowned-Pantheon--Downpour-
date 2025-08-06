@@ -1,0 +1,12 @@
+Template: DP_SettingsTemplate_FloodedExterior
+Clouds: 0.7608696
+Grime: 0.3586957
+RandomItemDensity: 0.3043478
+WaterReflectionAlpha: 0.1086956
+Palette: 111
+EffectColorA: 14
+EffectColorB: 12
+Effects: Flies-0.5543478-69-80,
+PlacedObjects: InsectGroup><570.6097><304.8328><-3~45~-291~-294~StandardFly~1, InsectGroup><573.5448><307.1949><-7~100~-295~-237~StandardFly~1, DataPearl><569.8641><184.9142><-1~-161~0~0~Misc~0, CustomDecal><1048.427><328.3433><-12~137~205~220~228~-1~-95~-365~0~0.3478261~0.2282609~SkullDuckpng~0.5760869~0.9347826~0.4456522~0.3478261~0.5434783~0.8152174~0.4565217~0.9239131, NoSpearStickZone><1063.584><596.3618><-8~130, ReliableSpear><862.0522><390.0295><, InsectGroup><376.7712><453.9489><130~86~0~0~FireFly~0.25, DangleFruit><264.1783><409.3133><0~0~2~3, DangleFruit><234.1316><434.4006><0~0~2~3, CustomDecal><505.7505><284.3><-60~313~644~420~655~27~-680~-99~0~1~0~BlackRust1~0.6086956~1~0.6086956~1~0.6086956~1~0.6086956~1, SnowSource><647.9987><443.8><Radial~-704~-477~50~86.60254~0.8260869~0.2608696, SnowSource><1130.43><627.4128><Radial~-232~-136~-350~-299.3975~0.5108696~0.2717391, 
+FadePalette: 10, 0.5108696
+WetTerrain: OFF

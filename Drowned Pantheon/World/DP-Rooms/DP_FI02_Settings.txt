@@ -1,0 +1,12 @@
+Template: DP_SettingsTemplate_CaveInterior
+DangerType: Flood
+Clouds: 0.76087
+Grime: 0.087
+WaterReflectionAlpha: 0.2065217
+Palette: 111
+EffectColorA: 13
+Effects: WaterGlowworm-0.7-630-249, RockFlea-0.065-20-20, 
+PlacedObjects: CustomDecal><1440.972><321.948><31~312~260~312~247~4~242~-349~0.1847826~0.3695652~1~BlackRust1~0.3369565~0.8478261~0.3369565~0.8478261~0.3369565~0.8478261~0.25~0.8478261, CustomDecal><1294.353><386.1351><43~271~-262~261~-200~-163~-152~-578~0.1630435~0.3152174~0~BlackRust1~0.4130435~1~0.4130435~1~0.4130435~1~0.4130435~1, CustomDecal><192.3185><555.6879><-56~302~287~306~240~14~-332~-157~0.4782609~0.7065217~0~RunningWhite~0.02173913~1~0.02173913~1~0.02173913~1~0.02173913~1, CustomDecal><211.244><650.3><-42~342~212~353~228~-5~-192~-472~0.4782609~0.7826087~0~Rust1~0.08695652~1~0.08695652~1~0.08695652~1~0.08695652~1, LightFixture><428.631><1328.411><RedLight~17.32051~-10~36, LightFixture><456.1136><376.3354><RedLight~17.32051~-10~97, LightFixture><1795.144><385.6388><RedLight~17.32051~-10~81, LightFixture><126.9064><588.3233><RedLight~17.32051~-10~67, LanternOnStick><1242.184><422.8275><-12~-82, LanternOnStick><1703.198><410.7233><52~-81, LightSource><302.3258><1000.935><0.06521739~Environment~-173~255~50~86.60254~1~0, CustomDecal><1703.998><429.55><-17~117~186~193~233~15~-421~-461~0~0.2826087~0~WhiteFace2~0.4347826~1~0~1~0~1~0.7826087~1, DangleFruit><602.0765><531.3497><-224~-223~2~3, DangleFruit><672.4474><502.2814><74~-205~2~3, DangleFruit><1272.412><557.6169><0~0~2~3, DangleFruit><1655.61><597.3571><0~0~2~3, DangleFruit><1545.909><530.928><0~0~2~3, 
+AmbientSounds: OMNI><SO_IND-Fridge.ogg><726.6269><419.5954><0.173913><1, SPOT><SO_IND-MechHum01.ogg><419.1865><524.3224><0.1413043><1><324.1864><1491.322><-171.3553><-256.3553><0><0.6326088, OMNI><SO_WAT-ProperDrips.ogg><735.9161><349.1385><0.4673913><1, SPOT><AM_DP-SShum.ogg><43.94928><141.7667><0.1413043><1><205.9493><467.7667><-236.3553><695.6447><0><0.3282608, SPOT><AM_DP-NoisyFilter.ogg><312.6898><219.8093><0.5434783><1><1417.69><518.8093><-195.3553><-304.3553><0><0.328261, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>DP_03 - Bomp Swamp<eA>vol<eB>0.2021737<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>517.6372<tB>361.5849<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>111, 
+FadePalette: 10, 0.9130435, 0.9130435, 0.9347826

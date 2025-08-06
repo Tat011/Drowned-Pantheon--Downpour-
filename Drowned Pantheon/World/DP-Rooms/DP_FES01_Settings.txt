@@ -1,0 +1,5 @@
+Template: DP_SettingsTemplate_TempleInterior
+Clouds: 0.9021739
+EffectColorA: 13
+PlacedObjects: BrokenShelterWaterLevel><321.5557><186.2027><, LightFixture><578.8013><158.2275><SlimeMoldLight~427.3206~-293~32, CustomDecal><288.5722><134.4365><-56~114~98~193~284~33~-334~155~0.2826087~0.4782609~0~SkullDuckpng~1~0~0~0~1~1~1~0, CustomDecal><447.9343><149.0775><-14~163~225~177~281~42~-767~-73~0~0~0~PointyArrows~0~1~1~1~0~1~1~1, LanternOnStick><824.8143><429.4258><-414~-453, LanternOnStick><655.9495><406.6935><-452~-522, 
+AmbientSounds: SPOT><SO_IND-Generator.ogg><45.55573><468.5474><0.3043478><0.5891304><670.5557><274.5474><-35.35534><-35.35534><0><0.06739127, SPOT><Mech Active.wav><13.43286><307.5616><0.4021739><0.7065217><300.4329><243.5616><-35.35534><-35.35534><0><0.1217391, 

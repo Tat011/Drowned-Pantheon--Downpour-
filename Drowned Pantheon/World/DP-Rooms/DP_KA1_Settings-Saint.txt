@@ -1,0 +1,8 @@
+Template: DP_SettingsTemplate_TempleInterior
+Clouds: 0.6521739
+EffectColorA: 14
+EffectColorB: 13
+PlacedObjects: LightSource><-100.1998><476.4903><1~White~-570~159~1023~-586.3975~0~0~None~0~0, CustomDecal><393.9381><503.568><-5~108~255~141~300~-3~-811~-847~0.25~0.4456522~0~BlueWhiteJunk~0.3478261~1~0~1~1~1~0~1, CustomDecal><371.0054><108.8001><0~367~166~367~166~-1~-732~-452~0~1~0~CartoonCat~0.1413043~1~0.1413043~1~0.1413043~1~0.1413043~1, CustomDecal><462.0021><319.3><21~209~381~237~430~57~-799~-666~0~0.1413043~0~BlackRust1~1~1~1~1~1~1~1~1, LightSource><551.3655><517.3519><0.6956522~White~0~100~240~-360.3975~1~0~None~0~0, SnowSource><830.05><510.5048><Radial~189~152~-55~-154.3975~0.3043478~0, 
+AmbientSounds: OMNI><SO_WAT-RainishDrips.ogg><131.707><403.1953><0.5><0.6086956, OMNI><waterGurgleLOOP1.wav><122.3917><308.1089><0.4021739><0.7260845, 
+FadePalette: 10, 0.6847826
+WetTerrain: OFF

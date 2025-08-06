@@ -1,0 +1,7 @@
+Template: DP_SettingsTemplate_LightExterior
+Clouds: 0.75
+Grime: 0.28261
+Palette: 111
+PlacedObjects: LightSource><505.0854><507.6808><0.04347826~Environment~-467~-196~-677~79.60254~1~0, LightSource><204.1282><1175.091><0.07608695~Environment~381~-409~50~86.60254~1~0, DataPearl><572.5632><580.5714><-736~-167~0~0~0~0, 
+AmbientSounds: SPOT><AM_DP-NoisyFilter.ogg><360.421><416.8538><0.5108696><1><408.421><1235.854><-42.35535><-37.35535><0><0.2413045, SPOT><AM_DP-NoisyFilter.ogg><359.4225><292.8156><0.5><1><639.4225><825.8159><-40.35535><-37.35535><0><0.2739132, 
+FadePalette: 10, 0.4021739, 0.4565217

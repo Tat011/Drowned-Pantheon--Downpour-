@@ -1,0 +1,22 @@
+[FINDLINE]UG_A16 : UG_B03, UG_A07
+[REPLACE]UG_A16 : UG_B03, UG_A07, UG_DP2
+[FINDLINE]UG_A16 : UG_B03, UG_D02p
+[REPLACE]UG_A16 : UG_B03, UG_D02p, UG_DP2
+[FINDLINE]ROOMS
+[MERGE]
+ROOMS
+UG_DP2 : UG_DP1, UG_A16
+UG_DP1 : GATE_DS_DP, UG_DP2
+GATE_DS_DP : UG_DP1, DISCONNECTED : GATE
+END ROOMS
+CREATURES
+//UG_A16: all creatures moved 1 den number higher because of the new entrance
+UG_A16 : 4-TentaclePlant-{Ignorecycle}, 6-JungleLeech-15-{Ignorecycle}, 8-TentaclePlant-{Ignorecycle}
+//Creatures for UG_DP1 and UG_DP2
+UG_DP1 : 2-Snail-2
+UG_DP1 : 2-DropBug
+UG_DP2 : 3-Leech-4
+UG_DP2 : 7-Leech-4
+UG_DP2 : 6-Salamander
+END CREATURES
+[ENDMERGE]

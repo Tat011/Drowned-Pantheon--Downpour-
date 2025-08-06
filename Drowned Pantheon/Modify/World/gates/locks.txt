@@ -1,0 +1,6 @@
+[MERGE]
+GATE_DP_SH : 3 : 1
+GATE_DS_DP : 4 : 2
+GATE_SB_DP : 4 : 3
+GATE_4B_DP : Forbidden : Forbidden
+[ENDMERGE]

@@ -1,0 +1,9 @@
+Template: DP_SettingsTemplate_CaveInterior
+DangerType: Flood
+Clouds: 0.7608696
+Grime: 0.3478261
+Palette: 111
+EffectColorA: 10
+PlacedObjects: LightSource><2001.639><108.3337><0.1630435~White~-137~111~-401~158.6025~1~0, LightSource><1999.05><112.7501><0.09782609~Environment~-242~269~-497~68.60254~1~0, Hazer><914.3067><466.8014><-369~-272~7~10, Hazer><1566.884><459.3369><-442~115~7~10, DeadHazer><1756.024><527.8014><0~0~7~10, 
+AmbientSounds: OMNI><AM_SUB-MysticCave1.ogg><58.31555><403.061><0.2608696><0.7065217, OMNI><SO_SFX-UnderWaterSub.ogg><40.42108><322.8964><0.2173913><1, 
+FadePalette: 10, 0.75, 0.7282609

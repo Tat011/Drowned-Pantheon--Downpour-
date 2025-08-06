@@ -1,0 +1,9 @@
+Template: DP_SettingsTemplate_CaveInterior
+CeilingDrips: 0.61
+Clouds: 0.75
+Grime: 0.1413043
+Palette: 111
+EffectColorA: 2
+EffectColorB: 21
+Effects: FireFlies-0.5-77-112, WaterGlowworm-0.5-120-19, 
+FadePalette: 10, 0.5760869

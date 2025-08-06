@@ -1,0 +1,7 @@
+Template: DP_SettingsTemplate_DarkExterior
+Clouds: 0.3587
+Effects: BkgOnlyLightning-0.2065217-20-20, 
+PlacedObjects: LightBeam><778.6776><370.9081><-342~613~-251~611~404~216~-10~-424~0.09565204~0~0~1~None~0~0, LightBeam><84.11102><269.8561><-164~612~226~633~395~31~-148~97~0.3565216~0~0~1~None~0~0, DangleFruit><979.8162><399.1713><53~-466~2~3, Mushroom><265.8572><157.61><-333~353~2~3, Mushroom><283.1838><173.8288><-353~405~2~3, NoSpearStickZone><856.1354><493.8972><0~100, SnowSource><575.2822><314.3026><None~713~397~50~86.60254~0.6739131~0.4456522, 
+AmbientSounds: OMNI><AM_RAIN-Rumbles.ogg><800><425><0.1413043><0.9021739, 
+FadePalette: 10, 0.4782609
+WetTerrain: OFF

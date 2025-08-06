@@ -1,0 +1,7 @@
+AM_DP-DarknessPad : use this at low volume in dark outdoor rooms.
+AM_DP-ChaosNoise : for pitch black rooms.
+AM_DP-Distant : for pitch black outdoor rooms.
+AM_DP-BellTower : for places near the bell tower/in the bell tower.
+AM_DP-NoisyFilter : No info.
+AM_DP-SShum : No info.
+AM_DP-SmallBells : lower the pitch.

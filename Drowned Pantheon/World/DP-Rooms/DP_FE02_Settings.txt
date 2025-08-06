@@ -1,0 +1,5 @@
+Template: DP_SettingsTemplate_FloodedExterior
+Grime: 0.27174
+Palette: 111
+PlacedObjects: LightSource><129.3151><65.42383><0.1304348~Environment~223~301~300~155.6025~1~0, FlareBomb><174.6481><346.6721><0~0~2~3, FlareBomb><160.5629><443.4295><0~0~2~3, 
+FadePalette: 10, 0.4674, 0.51087

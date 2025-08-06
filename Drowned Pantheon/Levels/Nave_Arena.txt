@@ -1,0 +1,13 @@
+GoalAmount - 6
+
+DenGroup - NESTS - 4,5
+DenGroup - FLOOR - 6,7,8
+
+Creature - Black - dens:FLOOR - chance:0.6 - amount:0-2
+Creature - BigSpider - dens:NESTS - chance:0.5 - amount:0-2
+Creature - Pink - dens:FLOOR - chance:0.4 - amount:0-2
+Creature - Green - dens:4 - chance:0.5 - amount:0-1
+Creature - DropWig - dens:5 - chance:0.25 - amount:0-1
+Creature - EggBug - dens:7 - chance:0.35 - amount:0-1
+
+Creature - Vulture - chance:0.5 - RARE

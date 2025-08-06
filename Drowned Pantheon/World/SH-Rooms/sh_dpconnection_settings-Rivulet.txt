@@ -1,0 +1,8 @@
+Template: NONE
+Clouds: 0.2282609
+Grime: 0.09782609
+Palette: 10
+Effects: FireFlies-0.1413043-307-193, BkgOnlyLightning-0.5108696-310-131, LightBurn-0.2608696-301-75, 
+PlacedObjects: DangleFruit><507.6541><3807.926><-639~50~2~3, DangleFruit><555.5535><3788.787><187~85~2~3, Corruption><-60.94446><329.2967><0~100, Corruption><874.0808><497.8934><1~80, Corruption><737.2546><662.55><-4~81, Corruption><249.3833><372.6624><0~100, Corruption><461.4443><4557.298><0~56, Corruption><-265.9417><2897.307><0~100, Corruption><-253.8003><2901.194><0~100, Corruption><-290.6894><2901.064><0~100, Corruption><-292.6145><4215.897><0~100, Corruption><286.9444><4251.192><0~100, Corruption><-232.9451><2945.955><0~100, Corruption><682.9357><2835.573><0~100, Corruption><790.5099><1441.699><8~80, Corruption><476.5618><471.3177><-5~57, Corruption><365.1346><3853.338><-4~47, Corruption><156.1721><3368.067><2~125, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><751.864><562.1466><0.4456522><1, OMNI><AM_ENV-NatWind.ogg><743.1644><479.3862><0.2826087><1, OMNI><AM_RAIN-QuietThunder.ogg><747.1879><402.6901><0.4130435><1, 
+FadePalette: 9, 0.1304348, 0.1304348, 0.1304348, 0.1304348, 0.1304348, 0.1304348, 0.1304348

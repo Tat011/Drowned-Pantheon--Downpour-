@@ -1,0 +1,105 @@
+Palette: 111
+pupSpawnChance: 1
+earlyCycleChance: 0.2
+earlyCycleFloodChance: 1
+
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 8
+batDepleteCyclesMaxIfLessThanTwoLeft: 4
+batDepleteCyclesMaxIfLessThanFiveLeft: 6
+batsPerActiveSwarmRoom: 8
+batsPerInactiveSwarmRoom: 2
+
+albinos: true
+blackSalamanderChance: 0
+kelpColor: 0.78, 0.61, 0.15
+batGlowColor: 1, 0.4, 0
+dragonflyColor: 1, 0.4, 0
+fireflyColor: 1, 0.4, 0
+corruptionEyeColor: 0.9, 0.3, 0
+corruptionEffectColor: 0.9, 0.3, 0
+rotEyeColor: BrotherLongLegs-dc3c00,DaddyLongLegs-ef5200,TerrorLongLegs-ff6600,HunterDaddy-C89B28
+rotEffectColor: BrotherLongLegs-dc3c00,DaddyLongLegs-ef5200,TerrorLongLegs-ff6600,HunterDaddy-C89B28
+
+scavGearItems: ElectricSpear-0.1,Lantern-0.25,GlowWeed-0.2,LillyPuck-0.075,WaterNut-0.05,FirecrackerPlant-0.05,SporePlant-0.075,PuffBall-0.05,VultureGrub-0.075,Hazer-0.075,Jellyfish-0.075,KarmaFlower-0.05,Mushroom-0.05,ScavengerBomb-1
+eliteScavGearItems: HellSpear-0.1,Lantern-0.35,GlowWeed-0.15,LillyPuck-0.1,WaterNut-0.05,FirecrackerPlant-0.075,SporePlant-0.1,PuffBall-0.075,VultureGrub-0.1,Hazer-0.1,Jellyfish-0.1,KarmaFlower-0.03,Mushroom-0.03,ScavengerBomb-1
+scavScoreItems: FireEgg-3,JellyFish-2,WaterNut-2,GlowWeed-2,VultureGrub-2,Hazer-2
+dropwigBaitItems: Lantern-0.25,GlowWeed-0.25,ElectricSpear-0.25,ExplosiveSpear-0.25,ScavengerBomb-0.25,DataPearl-0.25,WaterNut-0.1,FirecrackerPlant-0.1,VultureGrub-0.1,DangleFruit-0.1,GooieDuck-0.1,FlyLure-0.1,Mushroom-0.1,Seed-0.1,OverseerCarcass-0.1,KarmaFlower-1
+
+playerGuideOverseerSpawnChance: 1
+guideColor: 1, 0.4, 0
+guideShelterWeight: 2
+guideDangerousCreatureWeight: 2
+
+overseersSpawnChance: 0.25
+overseersMin: 0
+overseersMax: 100
+overseersColorOverride(1, 0.4, 0): 0.35
+overseersColorOverride(2): 0.1
+overseersColorOverride(4): 0.1
+overseersColorOverride(3): 0.1
+overseersColorOverride(1): 0.25
+
+Subregion: Spooderland
+Room Setting Templates: Interior, TempleInterior, CaveInterior, LightExterior, DarkExterior, FloodedExterior, Bog
+
+Room_Attr: DP_KA1: BrotherLongLegs-Avoid,
+Room_Attr: DP_IN08: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_IN04: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_IN03: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_IN05: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_basiccon: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_LE05: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_DE04: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_FE031: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,MiniLeviathan-Stay,
+Room_Attr: DP_FE032: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_DE12: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_LE09: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_brokensegment: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_bellwall: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_LE11: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_LEA04: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_LEA07: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_LEA08: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_FI05: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_bridgetosec: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_belltower: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_DE11: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_DE10: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_DE09: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_connectiontodarkex: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_DE07: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+Room_Attr: DP_pipedown: BigSpider-Like,MotherSpider-Like,SpitterSpider-Like,ZoopLizard-Like,WhiteLizard-Like,BlueLizard-Like,CyanLizard-Like,hunterseeker-Like,
+
+Room_Attr: DP_FI04: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_FEA06: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_FIA07: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_TB01: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,MiniLeviathan-Stay,
+Room_Attr: DP_FE02: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_FEA07: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_FE05: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,MiniLeviathan-Stay,
+Room_Attr: DP_FE04: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,MiniLeviathan-Stay,
+Room_Attr: DP_FE01: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_FE08: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,MiniLeviathan-Stay,
+Room_Attr: DP_TBA06: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_FI11: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_TB02: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_LE03: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,MiniLeviathan-Stay,
+Room_Attr: DP_FE09: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,MiniLeviathan-Stay,
+Room_Attr: DP_TB03: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_TB08: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_TB05: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_TB07: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+Room_Attr: DP_FE031: Salamander-Like,EelLizard-Like,WaterSpitter-Like,BubbleWeaver-Like,SapphiricWeaver-Like,
+
+Room_Attr: DP_finalshelter: BigSpider-Avoid,MotherSpider-Avoid,SpitterSpider-Avoid,polliwog-Avoid,YellowLizard-Avoid,WhiteLizard-Avoid,BlueLizard-Avoid,ZoopLizard-Avoid,CyanLizard-Avoid,hunterseeker-Avoid,BubbleWeaver-Avoid,SapphiricWeaver-Avoid,
+Room_Attr: DP_trashshelter: BigSpider-Avoid,MotherSpider-Avoid,SpitterSpider-Avoid,polliwog-Avoid,YellowLizard-Avoid,WhiteLizard-Avoid,BlueLizard-Avoid,ZoopLizard-Avoid,CyanLizard-Avoid,hunterseeker-Avoid,BubbleWeaver-Avoid,SapphiricWeaver-Avoid,
+Room_Attr: DP_FES01: BigSpider-Avoid,MotherSpider-Avoid,SpitterSpider-Avoid,polliwog-Avoid,YellowLizard-Avoid,WhiteLizard-Avoid,BlueLizard-Avoid,ZoopLizard-Avoid,CyanLizard-Avoid,hunterseeker-Avoid,BubbleWeaver-Avoid,SapphiricWeaver-Avoid,
+Room_Attr: DP_FES02: BigSpider-Avoid,MotherSpider-Avoid,SpitterSpider-Avoid,polliwog-Avoid,YellowLizard-Avoid,WhiteLizard-Avoid,BlueLizard-Avoid,ZoopLizard-Avoid,CyanLizard-Avoid,hunterseeker-Avoid,BubbleWeaver-Avoid,SapphiricWeaver-Avoid,
+Room_Attr: DP_FIS01: BigSpider-Avoid,MotherSpider-Avoid,SpitterSpider-Avoid,polliwog-Avoid,YellowLizard-Avoid,WhiteLizard-Avoid,BlueLizard-Avoid,ZoopLizard-Avoid,CyanLizard-Avoid,hunterseeker-Avoid,BubbleWeaver-Avoid,SapphiricWeaver-Avoid,
+Room_Attr: DP_LES01: BigSpider-Avoid,MotherSpider-Avoid,SpitterSpider-Avoid,polliwog-Avoid,YellowLizard-Avoid,WhiteLizard-Avoid,BlueLizard-Avoid,ZoopLizard-Avoid,CyanLizard-Avoid,hunterseeker-Avoid,BubbleWeaver-Avoid,SapphiricWeaver-Avoid,
+Room_Attr: DP_LES08: BigSpider-Avoid,MotherSpider-Avoid,SpitterSpider-Avoid,polliwog-Avoid,YellowLizard-Avoid,WhiteLizard-Avoid,BlueLizard-Avoid,ZoopLizard-Avoid,CyanLizard-Avoid,hunterseeker-Avoid,BubbleWeaver-Avoid,SapphiricWeaver-Avoid,
+
+Room_Attr: GATE_DP_SH: Vulture-Forbidden,KingVulture-Forbidden,FatFireFly-Forbidden,MirosVulture-Forbidden,FogVulture-Forbidden,Centiwing-Forbidden,hoverfly-Forbidden,
+Room_Attr: GATE_DS_DP: Vulture-Forbidden,KingVulture-Forbidden,FatFireFly-Forbidden,MirosVulture-Forbidden,FogVulture-Forbidden,Centiwing-Forbidden,hoverfly-Forbidden,
+Room_Attr: GATE_SB_DP: Vulture-Forbidden,KingVulture-Forbidden,FatFireFly-Forbidden,MirosVulture-Forbidden,FogVulture-Forbidden,Centiwing-Forbidden,hoverfly-Forbidden,

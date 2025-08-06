@@ -1,0 +1,8 @@
+Template: NONE
+Clouds: 0.2282609
+Grime: 0.09782609
+Palette: 10
+Effects: FireFlies-0.1413043-307-193, BkgOnlyLightning-0.5108696-310-131, LightBurn-0.2608696-301-75, 
+PlacedObjects: DangleFruit><507.6541><3807.926><-317~66~2~3, DangleFruit><555.5535><3788.787><174~-10~2~3, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><751.864><562.1466><0.4456522><1, OMNI><AM_ENV-NatWind.ogg><743.1644><479.3862><0.2826087><1, OMNI><AM_RAIN-QuietThunder.ogg><747.1879><402.6901><0.4130435><1, 
+FadePalette: 9, 0.1304348, 0.1304348, 0.1304348, 0.1304348, 0.1304348, 0.1304348, 0.1304348

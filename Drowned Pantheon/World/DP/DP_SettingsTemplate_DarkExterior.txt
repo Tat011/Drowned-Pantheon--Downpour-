@@ -1,0 +1,19 @@
+DangerType: FloodAndRain
+CeilingDrips: 0.25
+RainIntensity: 0.75
+RumbleIntensity: 0.75
+WaveSpeed: 0.5652174
+WaveLength: 1
+WaveAmplitude: 0.087
+SecondWaveLength: 0.1775363
+SecondWaveAmplitude: 0
+Clouds: 0.0326087
+Grime: 0.05434782
+RandomItemDensity: 0.5543478
+RandomItemSpearChance: 0.2
+WaterReflectionAlpha: 1
+Palette: 111
+EffectColorA: 18
+EffectColorB: 21
+Effects: FireFlies-0.4-20-20, TinyDragonFly-0.1-836-90,
+AmbientSounds: OMNI><AM_DP-DarknessPad.ogg><800><500><0.05><1, OMNI><AM_WIN-StrongWnd2.ogg><800><500><0.35><1, OMNI><AM_RAIN-Rumbles.ogg><800><425><0.17><1, OMNI><AM_ENV-CityTone.ogg><800><350><0.4><1, OMNI><SO_SFX-GlassGhost.ogg><800><275><0.05><0.65, OMNI><AM_IND-Midsex01.ogg><800><200><0.15><0.92, 

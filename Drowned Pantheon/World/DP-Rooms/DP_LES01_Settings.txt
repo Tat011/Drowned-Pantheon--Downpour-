@@ -1,0 +1,6 @@
+Template: DP_SettingsTemplate_LightExterior
+Clouds: 0.75
+WaterReflectionAlpha: 0
+PlacedObjects: BrokenShelterWaterLevel><184.0513><147.5223><, LightFixture><173.62><285.91><RedLight~-331.6795~230~77, Filter><159.7917><511.1956><-337~197~-334~-146~001, CorruptionDarkness><193.3158><346.0611><40~91, LanternOnStick><-56.88849><386.3557><372~-108, LanternOnStick><333.1008><703.1332><-142~-444, LightSource><175.4496><284.0135><0.1304348~EffectColor1~-4~25~242~-116.3975~0~1, LanternOnStick><50.70038><710.8063><190~-447, CustomDecal><303.5656><323.3274><136~-301~-74~-385~-261~-102~152~-560~0.173913~1~0~BellDemon~1~0.6521739~1~0.6521739~1~0.6521739~1~0.6521739, LightBeam><875.9004><238.0766><64~536~101~532~60~-7~-7~-176~0.03043531~0.2065217~0~1, LightBeam><1058.879><179.1528><96~552~202~562~135~-17~-541~97~0.389131~0.1521739~0~1, BrokenShelterWaterLevel><194.4472><-320.0333><, 
+AmbientSounds: DIR><AM_DP-BellTower.ogg><452.6977><576.9698><0.09782609><1><17.04577><0, 
+FadePalette: 8, 0.3043478

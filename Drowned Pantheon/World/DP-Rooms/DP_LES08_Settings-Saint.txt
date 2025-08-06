@@ -1,0 +1,9 @@
+Template: DP_SettingsTemplate_DarkExterior
+Clouds: 0.9
+Grime: 0.05434782
+Palette: 111
+Effects: Fog-0.4673913-21-88, BkgOnlyLightning-0.3043478-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><429.1854><286.075><, LightFixture><388.5693><549.8358><RedLight~89.3205~-126~76, CustomDecal><-61.95947><39.69583><-85~670~508~632~416~32~-123~10.99997~0~0.75~1~Rust2~0.2065217~1~0.2065217~1~0.2065217~1~0.2065217~1, LightFixture><85.55737><388.5538><RedLight~17.32051~-10~2, LightBeam><363.6053><4.638153><196~772~992~761~654~-123~480.9999~-14~0.6717357~0~0~1~None~0~0, CustomDecal><211.444><203.2985><0~297~293~337~331~0~678.0001~-44~0~1~0~BlackRust1~1~1~1~1~1~1~1~1, SnowSource><449.0681><283.9169><None~713~425~45~-104.3975~0.7934783~1, SnowSource><449.6787><313.3398><UnSnow~3~64~93~-25.39746~1~0, SnowSource><452.8123><406.819><UnSnow~0~54~50~86.60254~1~0, 
+AmbientSounds: SPOT><AM_IND-Midsex02.ogg><321.6368><474.3959><0.2826087><1><589.6368><243.3959><-429.3553><138.6447><0><0.3173914, 
+FadePalette: 8, 0.8586956
+WetTerrain: OFF

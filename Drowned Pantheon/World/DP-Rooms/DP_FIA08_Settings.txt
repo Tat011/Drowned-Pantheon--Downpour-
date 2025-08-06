@@ -1,0 +1,12 @@
+Template: DP_SettingsTemplate_CaveInterior
+DangerType: Flood
+CeilingDrips: 0.7065217
+WaveSpeed: 0.5217391
+Clouds: 0.75
+Grime: 0.1521739
+WaterReflectionAlpha: 0.2065217
+Palette: 111
+EffectColorA: 21
+EffectColorB: 6
+PlacedObjects: CustomDecal><389.3765><435.9048><1~165~161~162~160~5~-565~-369~0.2934783~1~0~CanWorm~0.423913~0.7608696~0.2282609~0.7608696~0.423913~0.7608696~0~0.7608696, DangleFruit><662.0803><532.1058><-550.9857~-42~2~3, DangleFruit><683.5117><509.4496><-496~44~2~3, CentipedeAttractor><475.9263><549.6555><0~72, CustomDecal><823.4009><302.6187><2~167~186~182~179~17~-565~-208~0~1~0~goblinCrude~0.1630435~0.5978261~0.3152174~0.3804348~0.2717391~0.2934783~0.0326087~0.2934783, Filter><671.1774><514.9075><-34~4~-67~-285~010, 
+FadePalette: 10, 0.6521739

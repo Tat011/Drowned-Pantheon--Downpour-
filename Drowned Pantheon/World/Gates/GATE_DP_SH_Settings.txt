@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: FloodAndRain
+WaveSpeed: 0.5072309
+WaveLength: 0.9963846
+WaveAmplitude: 0.04142074
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.6086956
+Grime: 0.05434782
+BkgDroneVolume: 0
+Palette: 111
+EffectColorA: 13
+PlacedObjects: NoSpearStickZone><475.5888><237.5708><-145~193, LightSource><836.8314><384.1076><0.04347826~EffectColor1~49~-74~-29~-247.3975~0~1~None~0~0, LightSource><146.6858><404.8106><0.04347826~EffectColor1~-5~30~50~86.60254~0~1~None~0~0, LightSource><102.9232><385.3999><0.04347826~EffectColor1~-33~5~-180~-113.3975~0~1~None~0~0, ExitSymbolHidden><730.9473><384.7172><, ExitSymbolHidden><230.6932><117.5582><, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><742.5649><198.5609><0.2826087><1, SPOT><AM_IND-DeepHum.ogg><739.1124><310.1451><0.3478261><1><476.8752><73.91083><-63.35535><136.6447><0><0.2086958, OMNI><SO_WAT-LilDrips.ogg><57.89868><251.8663><0.3695652><1, SPOT><AM_DP-SShum.ogg><724.8022><478.0301><0.173913><1><480.8022><253.0301><61.64465><-155.3553><0><0.3173914, 
+FadePalette: 10, 0.5869565

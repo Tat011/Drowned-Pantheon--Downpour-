@@ -1,0 +1,8 @@
+Template: DP_SettingsTemplate_TempleInterior
+Clouds: 0.6086956
+Palette: 10
+EffectColorA: 14
+EffectColorB: 15
+Effects: Bloom-0.1086956-299-24, RockFlea-0.2-834-29, TinyDragonFly-0.35-836-90, Beetle-0.2-831-156, 
+PlacedObjects: CustomDecal><213.3942><418.8303><-6~100~106~103~101~0~-352~-196~0~1~0~AntMan~0.5~0~0.5~0~0.5~0~0.5~0, LightSource><663.1924><460.4456><0.25~Environment~-390~-25~-347~-334.3975~1~0, LightSource><362.6573><451.1772><0.1847826~Environment~2~185~50~86.60254~1~0, InsectGroup><715.4128><425.8839><9~76~-200~-186~StandardFly~0.3043478, Mushroom><632.9194><398.067><0~0~2~3, 
+FadePalette: 111, 0.3369565

@@ -1,0 +1,45 @@
+Hello there, curious slugcat!
+Looks like you're lost in the Drowned Pantheon mod's files. Well done!
+
+Here you will find a big pile of many red screens and settings, 
+all of which are required for this region mod to work.
+
+But to all of you modders or people who don't bother playing the game, 
+you might be wondering: "What are these Architect.txt files for?"
+
+Let me explain the story behind them.
+
+
+It was a long time ago, when in #modding-gallery a new message appeared,
+asking people to join a "Community Region Project".
+
+People joined, discussed about its theme, and then started making their own levels.
+When a level was done, it could be submitted along with an optional
+"Architect.txt" text file which had some additional instructions for the region architects.
+
+Despite that absolutely genius plan, the whole region turned out very disorganized,
+and eventually it got abandoned.
+
+
+2 years later, few months after the slightly more organized Arid Barrens region jam was finished,
+we decided it was time to revive the very first region jam. The Drowned Pantheon.
+
+And now, even though many of the levels have been modifed or completely redesigned,
+the ancient "Architect.txt" texts are a remnant of what those levels used to be.
+You can read them to see what the original intent of those levels were.
+
+
+...Unless we have decided to remove the architect texts,
+in which case please remove this text file as well or this would be embarrassing.
+
+
+Thank for reading, I guess.
+
+- 1MINISKIDI
+
+
+
+P.S. If you're curious as what Drowned Pantheon was like back then, here's a download link to an old copy of it:
+https://drive.google.com/file/d/16yN6XJ_iFe3mVxYKNwhdEUideWTZ1CDb/view?usp=sharing
+
+I'll meet you there. I wish you good luck on your journey, slugcat. 

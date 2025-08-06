@@ -1,0 +1,4 @@
+DangerType: Flood
+PlacedObjects: CustomDecal><-55.44739><-11.96768><16~278~1308~435~1286~-31~142~335~0~1~0~BlackRust1~0.3695652~1~0.3695652~1~0.3695652~1~0.3695652~1, 
+AmbientSounds: OMNI><AM_SUB-CaveTone.ogg><728.4391><531.1848><0.2934783><1, OMNI><AM_SUB-BlankState.ogg><551.5696><531.4137><0.2934783><1, OMNI><SO_WAT-LilDrips.ogg><554.5609><443.5651><0.2173913><1, 
+FadePalette: 10, 0.3695652

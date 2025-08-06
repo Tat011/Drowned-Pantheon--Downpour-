@@ -1,0 +1,12 @@
+Template: DP_SettingsTemplate_TempleInterior
+CeilingDrips: 0.73
+Clouds: 0.761
+Grime: 0.4
+RandomItemSpearChance: 0.43
+WaterReflectionAlpha: 1
+Palette: 111
+EffectColorA: 14
+EffectColorB: 13
+Effects: Moth-0.2065217-20-20, 
+PlacedObjects: DataPearl><211.8964><285.1363><-379~305~0~0~Misc~0, LightSource><330.8743><55.15552><0.5760869~White~-18~149~-417~75.60254~0~0~None~0~0, Hazer><549.8674><94.8998><0~0~1~12, KarmaFlower><749.3569><337.1103><0~0~1~14, 
+FadePalette: 10, 0.6304348

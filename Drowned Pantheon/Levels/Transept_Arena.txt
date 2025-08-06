@@ -1,0 +1,7 @@
+Creature - Salamander - dens:9,8
+
+Creature - Big Spider - dens:4,5
+
+Creature - Yellow - dens:4,5,6
+
+Creature - Spitter Spider - dens:7 - chance:0.7

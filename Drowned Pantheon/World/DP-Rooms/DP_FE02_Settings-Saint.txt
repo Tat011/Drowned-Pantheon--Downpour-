@@ -1,0 +1,6 @@
+Template: DP_SettingsTemplate_FloodedExterior
+Grime: 0.27174
+Palette: 111
+PlacedObjects: LightSource><129.3151><65.42383><0.1304348~Environment~223~301~-312~189.6025~1~0~None~0~0, SnowSource><141.1273><1267.904><Radial~470~-318~-308~-225.3975~1~0.3369565, SnowSource><983.5923><1038.377><Radial~-614~144~-286~78.60254~0.7717391~0.3152174, SnowSource><468.9301><484.663><Radial~620~-96~50~86.60254~0.7934783~0.3152174, SporePlant><425.0507><434.017><0~0~2~12, 
+FadePalette: 10, 0.4674, 0.51087
+WetTerrain: OFF

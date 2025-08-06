@@ -1,0 +1,15 @@
+DenGroup - ALL - 4,5,6
+
+Creature - KingVulture - dens:-1 - chance:0.45 - RARE
+Creature - Vulture - dens:-1 - chance:0.45 - RARE
+
+Creature - DropBug - dens:ALL - chance:0.45 - amount:1-2
+
+Creature - Big Spider - dens:ALL - chance:0.55 - amount:1-2
+Creature - Spitter Spider - dens:ALL - chance:0.55 - amount:1-2
+Creature - Big Spider - dens:ALL - chance:0.1 - amount:1
+Creature - Spitter Spider - dens:ALL - chance:0.1 - amount:1
+
+Creature - Black - dens:ALL - chance:0.65 - amount:1-2
+Creature - White - dens:4 - chance:0.45
+

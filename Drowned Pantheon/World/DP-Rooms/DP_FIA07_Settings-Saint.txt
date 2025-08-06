@@ -1,0 +1,11 @@
+Template: DP_SettingsTemplate_CaveInterior
+CeilingDrips: 0
+Clouds: 0.75
+Grime: 0.1413043
+Palette: 111
+EffectColorA: 2
+EffectColorB: 21
+Effects: FireFlies-0.5-77-112, WaterGlowworm-0.5-120-19, 
+PlacedObjects: SnowSource><474.3904><422.3453><Radial~674~-374~-343.9947~-173.3975~0.6413083~0.3043478, SporePlant><437.8672><372.8997><0~0~2~12, 
+FadePalette: 10, 0.5760869
+WetTerrain: OFF

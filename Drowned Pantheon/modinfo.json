@@ -1,0 +1,12 @@
+{
+	"id": "regionjam.drownedpantheon",
+	"name": "Drowned Pantheon",
+	"version": "1.1",
+	"authors": "Region Jam",
+	"description": "The 1.5 region jam region is here!<LINE>-Downpour recommended but not required.<LINE>-Unique spawns are clustered as follows Spear/Arti/Hunter, Gourmand/Survivor/Monk, Rivulet, Saint, Inv.<LINE>-Having Drain Mites and Shrouded Assembly will cause the creatures from those mods to spawn.<LINE>'A mysterious pantheon, flooded by water leaking from the Drainage System. This hostile region allows for fast travel between the surface and the deepest caves to those who manage to traverse its murky waters.'",
+	"requirements": ["regionkit", "crs", "lb-fgf-m4r-ik.modpack", "bry.bubbleweavers"],
+	"requirements_names": ["RegionKit", "Custom Regions Support", "The M4rblelous Entity Pack", "Bubble Weavers"],
+	"priorities": ["shrouded_assembly", "drainmites", "jevmen.drainagesystemplus"],
+	"tags": ["Regions"],
+	"checksum_override_version": false
+}

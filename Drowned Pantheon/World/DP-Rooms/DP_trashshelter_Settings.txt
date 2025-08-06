@@ -1,0 +1,4 @@
+Template: DP_SettingsTemplate_TempleInterior
+Clouds: 0.75
+PlacedObjects: BrokenShelterWaterLevel><514.1439><287.4196><, CustomDecal><-19.51953><138.551><60~274~789~309~756~-105~795~117~0~1~0~BlackRust1~0.3586957~1~0.3586957~1~0.3586957~1~0.3586957~1, 
+FadePalette: 10, 0.326087

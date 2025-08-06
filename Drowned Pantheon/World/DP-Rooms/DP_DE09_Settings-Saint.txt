@@ -1,0 +1,6 @@
+Template: DP_SettingsTemplate_TempleInterior
+Clouds: 0.8261
+PlacedObjects: DangleFruit><392.5906><291.8708><-565~196~2~6, DangleFruit><241.8203><232.9373><-421~327~2~6, SnowSource><345.6176><224.6001><None~178~136~-414~-36.39746~0.1630435~0, 
+AmbientSounds: OMNI><AM_RAIN-Rumbles.ogg><390.867><209.9122><0.1304348><0.823913, 
+FadePalette: 10, 0.478261
+WetTerrain: OFF

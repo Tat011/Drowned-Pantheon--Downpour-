@@ -1,0 +1,12 @@
+
+(name) : (notes) // (where its actually used)
+
+BM_DP_CRASH : for interior.  // plays when entering DP from Memory Crypts (DP_BOGGATE)
+DP_01 - Earthen Maw : spooky intro to Drowned Pantheon.  // plays when entering DP from Drainage System (DP_IN07)
+DP_02 - Interstellar : song made of long notes.  // plays on the long bridge level between the belltowers (DP_bridgetosec)
+DP_03 - Bomp Swamp : maybe for the bog but no more info.  // plays when entering DP from Subterranean (DP_FI02)
+DP_04 - End of Days : plays somewhere high up  // plays when climbing up to the sky exterior from the bog (DP_DE07)
+DP_05 - RAINSONG : triggers bells at the end of each cycle  // plays in DP when the cycle reaches its end
+DP_06 - Belse : Twelve Faded Petals, Closed Eyes' theme (also a little pun with the name) // plays when approaching the echo on the peak of the west belltower
+----
+Passages : RW's achievement passage tune  // plays at the viewing spot in the ruins (DP_DE04)

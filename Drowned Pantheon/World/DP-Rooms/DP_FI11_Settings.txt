@@ -1,0 +1,9 @@
+Template: DP_SettingsTemplate_CaveInterior
+Clouds: 1
+Grime: 0.3049048
+WaterReflectionAlpha: 0.5081658
+Palette: 10
+EffectColorA: 10
+Effects: Moth-0.4-20-20, 
+PlacedObjects: LanternOnStick><186.8693><398.623><-15.36761~-72.45755, LanternOnStick><449.752><578.2219><15.36743~-63.92004, LightFixture><1340.763><539.1613><SlimeMoldLight~163.3118~-202.9475~35, SlimeMold><1439.33><525.4239><23.05115~-434.5587~2~3, SlimeMold><1361.161><494.692><220.2675~-298.8126~2~3, SlimeMold><1052.611><491.1552><86.22864~-321.01~2~3, CosmeticSlimeMold2><1301.137><545.6268><-156.2362~-28.06244, CosmeticSlimeMold2><1100.457><479.1592><0~100, LightFixture><1078.063><512.6556><SlimeMoldLight~121.478~-247.3425~16, SlimeMold><1123.36><532.3149><35.00372~-101.5963~2~3, 
+FadePalette: 111, 0.3526356, 0.4454347

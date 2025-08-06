@@ -1,0 +1,9 @@
+Template: DP_SettingsTemplate_FloodedExterior
+CeilingDrips: 0.435
+Palette: 111
+EffectColorA: 15
+EffectColorB: 13
+PlacedObjects: NoSpearStickZone><49.19513><2961.544><5~96, NoSpearStickZone><1833.051><2942.267><0~100, BlueToken><1835.957><1054.712><-61.18536~100.7112~120.9479~-9.244446~1~WaterBlob~Rivulet|Artificer|Saint|Spear|Gourmand~0~0~0~0, 
+FadePalette: 10, 0.5543478, 0.5543478, 0.5652174, 0.5652174, 0.5652174, 0.5652174, 0.5869565, 0.5869565, 0.7826087, 0.7826087
+RoomSpecificScriptActive: ON
+WetTerrain: OFF

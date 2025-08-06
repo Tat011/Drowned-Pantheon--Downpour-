@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: FloodAndRain
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.04994677
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.1956522
+Palette: 111
+EffectColorA: 15
+EffectColorB: 7
+PlacedObjects: NoSpearStickZone><482.2802><249.6977><-202~176, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><311.57><29.18729><0.4130435><1><464.57><-39.81265><-132.3553><-32.35534><0><0.654348, SPOT><SO_WAT-LilDrips.ogg><25.31573><256.8277><0.2065217><1><60.31567><180.8277><107.6447><1.644653><0><0.3717393, SPOT><SO_WAT-DripTap.ogg><26.37433><375.4067><0.2391304><1><59.37433><190.4067><108.6447><8.644653><0><0.3717391, SPOT><AM_IND-Utility02.ogg><26.40411><486.1275><0.2608696><1><58.40411><203.1275><109.6447><11.64465><0><0.3717391, SPOT><AM_ENV-CricketsWnd.ogg><782.9077><322.8226><0.3043478><1><901.9077><195.8226><-110.3553><5.644653><0><0.3717393, SPOT><AM_ENV-NatWind.ogg><784.3><202.7459><0.2065217><1><902.3><183.7459><-111.3553><1.644653><0><0.3717393, SPOT><AM_ENV-Woods.ogg><792.3559><85.36133><0.09782609><1><902.356><170.3613><-111.3553><2.644653><0><0.3717393, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>NO SONG<eA>prio<eB>1<eA>type<eB>AllSongs<eA>fadeOut<eB>200<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>724.2163<tB>212.3029<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>Rivulet|Artificer|Saint|Spear|Gourmand|vinki<tA>pos<tB>479.2163<tB>246.3029<tA>handlePos<tB>-160.3553<tB>-183.3553, 
+FadePalette: 10, 0.2065217

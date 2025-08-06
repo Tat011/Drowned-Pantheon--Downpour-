@@ -1,0 +1,6 @@
+Template: DP_SettingsTemplate_DarkExterior
+Effects: BkgOnlyLightning-0.1847826-20-20, 
+PlacedObjects: UniqueDataPearl><835.269><147.0509><-392~-87~0~0~DP_Residents~0, CustomDecal><1025.602><801.6154><-78~646~140~724~125~-33~-1233~188~0.3586957~1~0~BlackRust1~0.5652174~1~0.5652174~1~0.5652174~1~0.5652174~1, LightFixture><1083.802><1457.193><RedLight~-1286.679~-96~33, LightSource><258.6599><1462.62><0.1521739~EffectColor1~-3~-16~-463~-182.3975~0~1~None~0~0, LightSource><185.8663><149.8513><0.4891304~EffectColor1~-3~100~-388~-3.438538~0~0~None~0~0, LightSource><259.0565><1462.058><0.75~EffectColor1~-6~-79~-456~-44.39746~0~0~None~0~0, LightSource><187.9857><138.9495><0.2826087~EffectColor1~14~-21~-396~122.5935~0~1~None~0~0, NoSpearStickZone><731.4878><40.05035><-34~116, NoSpearStickZone><251.8364><36.38483><-31~70, NoSpearStickZone><74.27234><41.94873><-13~47, NoSpearStickZone><903.1364><1550.104><-36~-48, NoSpearStickZone><189.5897><1571.38><-28~-118, SnowSource><504.5916><1141.878><None~659~431~-257~-121.3975~0.5326087~0.25, SnowSource><162.6154><89.6479><Radial~420~314~50~86.60254~0.7391304~0.2717391, SnowSource><764.704><189.3054><Radial~403~315~-352~-97.39746~0.7173913~0.2391304, 
+AmbientSounds: OMNI><AM_RAIN-Rumbles.ogg><800><425><0.1086956><0.8434783, 
+FadePalette: 10, 0.5, 0.5652174
+WetTerrain: OFF

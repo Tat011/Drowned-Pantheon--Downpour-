@@ -1,0 +1,619 @@
+CONDITIONAL LINKS
+Rivulet : DP_BOGGATE : GATE_DP_SH : DISCONNECTED
+Rivulet : GATE_DP_SH : DP_BOGGATE : DISCONNECTED
+END CONDITIONAL LINKS
+ROOMS
+GATE_DS_DP : DISCONNECTED, DP_IN07 : GATE
+GATE_SB_DP : DISCONNECTED, DP_FI02 : GATE
+GATE_DP_SH : DISCONNECTED, DISCONNECTED, DP_BOGGATE : GATE
+
+//Improperly Named Rooms
+DP_basiccon : DP_LE05, DISCONNECTED, DP_IN03, DP_DE04
+DP_belltower : DP_bridgetosec, DP_connectiontodarkex, DP_DE09
+DP_bellwall : DP_LE11, DP_LEA07, DP_brokensegment, DP_FIA10
+DP_BOGGATE : GATE_DP_SH, DP_TB07
+DP_bridgetosec : DP_DEA08, DP_FI05, DP_belltower
+
+DP_connectiontodarkex : DP_belltower, DP_DE09, DP_DE07
+DP_finalshelter : DP_IN07 : SHELTER
+DP_pipedown : DP_DE07, DP_LES08, DP_TB03
+DP_simplecon : DP_LE05, DP_IN03
+DP_trashshelter : DP_DE12 : SHELTER
+DP_KA1 : DP_IN08, DP_FEA06, DP_FI04
+DP_KA2 : DP_FE09, DP_TB03
+
+//Dark Exterior
+DP_DE04 : DP_LE05, DP_basiccon, DP_FE031
+DP_DE07 : DP_connectiontodarkex, DISCONNECTED, DISCONNECTED, DP_pipedown
+DP_DEA08 : DP_LEA07, DP_FIA10, DISCONNECTED, DP_bridgetosec : SWARMROOM
+DP_DE09 : DP_belltower, DP_connectiontodarkex, DP_DE10
+DP_DE10 : DP_DE09, DP_DE11
+DP_DE11 : DP_DE10, DP_FE08
+DP_DE12 : DP_FI05, DP_FE032, DP_trashshelter, DISCONNECTED
+
+//Flooded Exterior
+DP_FE01 : DP_FES01, DP_FE08, DP_FE04, DP_TBA06
+DP_FE02 : DP_FI13, DP_FIA07, DP_FEA07, DP_TB01
+DP_FE031 : DP_DE04, DP_FE032
+DP_FE032 : DP_FI05, DP_DE12, DP_FE031
+DP_FE04 : DISCONNECTED, DP_IN01, DP_FE01
+DP_FE05 : DP_IN05, DP_IN01, DP_FES02, DP_TB01, DP_FEA07
+DP_FEA06 : DP_KA1, DP_FIA07, DP_TB01
+DP_FEA07 : DP_FE05, DP_FE02
+DP_FE08 : DP_DE11, DP_INA06, DP_FE01, DP_FI11
+DP_FE09 : DP_LE03, DP_KA2, DP_TB02
+DP_FES01 : DP_FE01 : SHELTER
+DP_FES02 : DP_FE05 : SHELTER
+
+//Flooded Interior
+DP_FI02 : GATE_SB_DP, DP_FIA09
+DP_FI04 : DP_KA1, DP_FIA09
+DP_FI05 : DP_FIA10, DP_bridgetosec, DP_FE032, DP_DE12
+DP_FIA07 : DP_IN08, DP_FEA06, DP_FE02
+DP_FIA08 : DP_FIS01, DISCONNECTED, DISCONNECTED, DP_FIA09
+DP_FIA09 : DP_FIA08, DP_FI04, DP_FI02
+DP_FIA10 : DP_bellwall, DP_DEA08, DP_FI05
+DP_FI11 : DP_FE08, DP_LE03, DP_INA06
+DP_FI12 : DP_TB03
+DP_FI13 : DP_IN05, DP_FE02
+DP_FIS01 : DP_FIA08 : SHELTER
+
+//Interior
+DP_IN01 : DP_FE05, DP_FE04 : SCAVOUTPOST
+DP_IN03 : DP_simplecon, DP_IN07, DP_basiccon, DISCONNECTED, DP_IN04
+DP_IN04 : DP_IN03, DP_IN05, DP_IN08
+DP_IN05 : DP_IN04, DP_4B, DP_FE05, DP_FI13
+DP_4B : GATE_4B_DP, DP_IN05
+GATE_4B_DP : DISCONNECTED, DP_4B : GATE
+DP_INA06 : DP_FE08, DP_FI11
+DP_IN07 : DP_finalshelter, GATE_DS_DP, DP_IN03
+DP_IN08 : DP_IN04, DP_FIA07, DP_KA1
+
+//Light Exterior
+
+//Conditional stuff
+DP_LES01 : DP_brokensegment : SHELTER
+DP_LES01x : DISCONNECTED
+DP_brokensegment : DP_bellwall, DP_LE10, DP_LES01
+
+DP_LE03 : DP_FE09, DP_FI11 : SWARMROOM
+DP_LEA04 : DP_LE11, DP_LEA07
+DP_LE05 : DP_LE09, DP_simplecon, DP_DE04, DP_basiccon
+DP_LEA07 : DP_LEA04, DP_bellwall, DP_DEA08
+DP_LES08 : DP_pipedown : SHELTER
+DP_LE09 : DP_LE10, DP_LE05
+DP_LE10 : DP_brokensegment, DP_LE09
+DP_LE11 : DP_LE12, DP_bellwall, DP_LEA04
+DP_LE12 : DP_LE11
+
+//The Bog
+DP_TB01 : DP_FE05, DP_FE02, DP_FEA06 : SWARMROOM
+DP_TB02 : DP_TBA06, DP_FE09
+DP_TB03 : DP_pipedown, DP_TB08, DP_FI12, DP_KA2 : SWARMROOM
+DP_TB05 : DP_TB07, DP_TB08
+DP_TBA06 : DP_FE01, DP_TB02
+DP_TB07 : DP_BOGGATE, DP_TB05
+DP_TB08 : DP_TB03, DP_TB05 : SWARMROOM
+END ROOMS
+CREATURES
+(Spear,Artificer,Red){MSC}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-KingVulture, 0-MirosVulture, 0-FatFireFly-2, 0-Scavenger-10, 0-ScavengerElite-2
+(Red){!MSC}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-KingVulture-2, 0-FatFireFly-3, 0-Scavenger-14
+
+(Gourmand)OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-KingVulture-2, 0-FatFireFly-2, 0-Scavenger-10, 0-ScavengerElite-2
+
+(White,Yellow,Saint){MSC}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-KingVulture, 0-FatFireFly-3, 0-Scavenger-10, 0-ScavengerElite-2
+(White,Yellow){!MSC}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-KingVulture, 0-FatFireFly-3, 0-Scavenger-14
+
+(Rivulet){#!shrouded_assembly}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-KingVulture, 0-MirosVulture, 0-FatFireFly-2, 0-Scavenger-10, 0-ScavengerElite-2
+(Rivulet){#shrouded_assembly}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-FogVulture-2, 0-MirosVulture, 0-FatFireFly, 0-Scavenger-10, 0-ScavengerElite-2
+
+(Saint)OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}, 0-KingVulture-{Ignorecycle}, 0-FatFireFly-{Ignorecycle}-3, 0-FatFireFly-{Night}-3, 0-Scavenger-{Ignorecycle}-10, 0-ScavengerElite-{Ignorecycle}-2
+
+(Inv){#!shrouded_assembly}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}-3, 0-KingVulture-2, 0-MirosVulture-2, 0-FatFireFly-{AlternateForm}-2, 0-Scavenger-10, 0-ScavengerElite-2
+(Inv){#shrouded_assembly}OFFSCREEN : 0-MiniLeviathan-{Ignorecycle}-3, 0-KingVulture-2, 0-FogVulture-2, 0-MirosVulture-2, 0-FatFireFly-{AlternateForm}-2, 0-Scavenger-10, 0-ScavengerElite-2
+
+{MSC,#shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, FogVulture-0.75, KingVulture-0.75, MirosVulture-0
+{MSC,#!shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, KingVulture-0.75, MirosVulture-0
+{!MSC,#shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, FogVulture-0.75, KingVulture-0
+{!MSC,#!shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, KingVulture-0
+
+{MSC,#shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, FogVulture-0.75, KingVulture-0.75, MirosVulture-0
+{MSC,#!shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, KingVulture-0.75, MirosVulture-0
+{!MSC,#shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, FogVulture-0.75, KingVulture-0
+{!MSC,#!shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, KingVulture-0
+
+{MSC,#shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, FogVulture-0.75, KingVulture-0.75, MirosVulture-0
+{MSC,#!shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, KingVulture-0.75, MirosVulture-0
+{!MSC,#shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, FogVulture-0.75, KingVulture-0
+{!MSC,#!shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, KingVulture-0
+
+{#drainmites}OFFSCREEN : 0-DrainMite-40
+
+//sky exterior & east belltower
+//DP_bridgetosec
+(Spear,Artificer,Red)DP_bridgetosec : 3-SpitterSpider-2
+(Gourmand)DP_bridgetosec : 3-SpitterSpider, 3-BigSpider
+(White,Yellow)DP_bridgetosec : 3-BigSpider-2
+(Rivulet)DP_bridgetosec : 3-YellowLizard-2, 4-BigSpider-2, 5-SpitterSpider
+(Saint)DP_bridgetosec : 3-ThornBug-2, 4-CicadaA-2, 4-CicadaB-2, 5-WhiteLizard
+
+(Spear,Artificer,Red)DP_bridgetosec : 4-Centiwing-2
+(Gourmand,White,Yellow)DP_bridgetosec : 4-hoverfly-4
+(Spear,Artificer,Red){MSC}LINEAGE : DP_bridgetosec : 5 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_bridgetosec : 5 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_bridgetosec : 5 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_bridgetosec : 5 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+(Inv)DP_bridgetosec : 3-Spider-12, 3-SpitterSpider, 3-MotherSpider, 3-BigSpider, 4-Centiwing, 4-hoverfly-2, 5-Seeker
+
+//DP_belltower
+DP_belltower : 3-LanternMouse-6
+(Spear,Artificer,Red)DP_belltower : 3-Centiwing-3
+(Gourmand,White,Yellow)DP_belltower : 3-hoverfly-6
+(Rivulet)DP_belltower : 3-BigSpider-3, 4-YellowLizard-3
+(Saint)DP_belltower : 3-CicadaA-3, 3-CicadaB-3, 4-ThornBug-3
+
+(Spear,Artificer,Red)DP_belltower : 4-SpitterSpider-3
+(Gourmand)DP_belltower : 4-SpitterSpider-1, 4-BigSpider-2
+(White,Yellow)DP_belltower : 4-BigSpider-3
+(Inv)DP_belltower : 3-Centiwing-2, 2-hoverfly, 4-Spider-12, 4-SpitterSpider, 4-MotherSpider, 4-BigSpider
+
+//DP_connectiontodarkex
+DP_connectiontodarkex : 4-EggBug
+(Spear,Artificer,Red)DP_connectiontodarkex : 3-SpitterSpider-2
+(Gourmand)DP_connectiontodarkex : 3-SpitterSpider, 3-BigSpider
+(White,Yellow)DP_connectiontodarkex : 3-BigSpider-2
+(Rivulet)DP_connectiontodarkex : 3-YellowLizard-2
+(Saint)DP_connectiontodarkex : 3-ThornBug-2
+(Inv)DP_connectiontodarkex : 3-Spider-5, 3-SpitterSpider, 3-MotherSpider, 3-BigSpider
+
+//DP_DE07
+(Spear,Artificer,Red)DP_DE07 : 6-Centiwing-5
+(Gourmand,White,Yellow)DP_DE07 : 6-hoverfly-10
+(Rivulet)DP_DE07 : 6-BigSpider-5, 5-SpitterSpider, 4-YellowLizard-2
+(Saint)DP_DE07 : 6-CicadaA-5, 6-CicadaB-5, 5-WhiteLizard, 4-ThornBug-2
+
+(Spear,Artificer,Red){MSC}LINEAGE : DP_DE07 : 5 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_DE07 : 5 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_DE07 : 5 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_DE07 : 5 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+(Spear,Artificer,Red)DP_DE07 : 4-SpitterSpider-2
+(Gourmand)DP_DE07 : 4-SpitterSpider, 4-BigSpider
+(White,Yellow)DP_DE07 : 4-BigSpider-2
+(Inv)DP_DE07 : 6-Centiwing-5, 6-hoverfly-5, 5-Seeker, 4-Spider-12, 4-SpitterSpider, 4-MotherSpider, 4-BigSpider
+
+//west belltower
+//DP_FI05
+DP_FI05 : 4-surfaceswimmer-4, 5-LanternMouse-6, 6-Mimic
+(Spear,Artificer,Red)DP_FI05 : 7-Salamander
+(Gourmand,White,Yellow){MSC}DP_FI05 : 7-EelLizard
+(White,Yellow){!MSC}DP_FI05 : 7-Salamander
+(Rivulet,Inv)DP_FI05 : 7-BrotherLongLegs
+(Saint)DP_FI05 : 7-WaterSpitter
+(Inv)DP_FI05 : 7-Spider-10
+
+//DP_DEA08
+(Spear,Artificer,Red)DP_DEA08 : 5-Centiwing-2
+(Gourmand,White,Yellow)DP_DEA08 : 5-hoverfly-4
+(Spear,Artificer,Red){MSC}LINEAGE : DP_DEA08 : 4 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_DEA08 : 4 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_DEA08 : 4 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_DEA08 : 4 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+
+(Rivulet)DP_DEA08 : 4-SpitterSpider, 5-BigSpider-2
+(Saint)DP_DEA08 : 4-WhiteLizard, 5-CicadaA-2, 5-CicadaB-2
+(Inv)DP_DEA08 : 5-Centiwing, 5-hoverfly-2, 5-Spider-5, 4-Seeker
+
+//DP_FIA10
+(X-Rivulet,Saint)DP_FIA10 : 3-WaterBlob-2, 4-WaterBlob-2
+(Rivulet)DP_FIA10 : 3-Snail-2, 4-Snail-2
+(Saint,Inv)DP_FIA10 : 3-bouncingball-2, 4-bouncingball-2
+(Inv)DP_FIA10 : 4-Spider-5
+
+//DP_LEA04
+(Spear,Artificer,Red)DP_LEA04 : 2-SpitterSpider-2
+(Gourmand)DP_LEA04 : 2-SpitterSpider, 2-BigSpider
+(White,Yellow)DP_LEA04 : 2-BigSpider-2
+(Rivulet)DP_LEA04 : 2-YellowLizard-2
+(Saint)DP_LEA04 : 2-ThornBug-2
+(Inv)DP_LEA04 : 2-Spider-5, 2-SpitterSpider, 2-MotherSpider, 2-BigSpider
+
+//DP_LE11
+DP_LE11 : 5-EggBug
+(Spear,Artificer,Red)DP_LE11 : 3-Centiwing-4
+(Gourmand,White,Yellow)DP_LE11 : 3-hoverfly-8
+(Rivulet)DP_LE11 : 3-BigSpider-4
+(Saint)DP_LE11 : 3-CicadaA-4, 3-CicadaB-4
+
+(Spear,Artificer,Red)DP_LE11 : 4-SpitterSpider-2
+(Gourmand)DP_LE11 : 4-SpitterSpider, 4-BigSpider
+(White,Yellow)DP_LE11 : 4-BigSpider-2
+(Rivulet)DP_LE11 : 4-YellowLizard-2
+(Saint)DP_LE11 : 4-ThornBug-2
+(Inv)DP_LE11 : 3-Centiwing-2, 3-hoverfly-4, 4-Spider-12, 4-SpitterSpider, 4-MotherSpider, 4-BigSpider
+
+//DP_bellwall
+DP_bellwall : 3-LanternMouse-6
+(Spear,Artificer,Red){MSC}LINEAGE : DP_bellwall : 4 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_bellwall : 4 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_bellwall : 4 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_bellwall : 4 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+
+(Rivulet)DP_bellwall : 4-SpitterSpider
+(Saint)DP_bellwall : 4-WhiteLizard
+(Inv)DP_bellwall : 4-Seeker, 4-Spider-5
+
+//the ruins
+//DP_brokensegment
+(Spear,Artificer,Red)DP_brokensegment : 3-SpitterSpider-3
+(Gourmand)DP_brokensegment : 3-SpitterSpider-1, 3-BigSpider-2
+(White,Yellow)DP_brokensegment : 3-BigSpider-3
+(Rivulet)DP_brokensegment : 3-YellowLizard-3
+(Saint)DP_brokensegment : 3-ThornBug-3
+
+(Spear,Artificer,Red)DP_brokensegment : 4-Centiwing-4
+(Gourmand,White,Yellow)DP_brokensegment : 4-hoverfly-8
+(Rivulet)DP_brokensegment : 4-BigSpider-4
+(Saint)DP_brokensegment : 4-CicadaA-4, 4-CicadaB-4
+(Inv)DP_brokensegment : 3-SpitterSpider, 3-MotherSpider-2, 3-BigSpider-2, 4-Centiwing-2, hoverfly-4
+
+//DP_LE09
+(Spear,Artificer,Red){MSC}LINEAGE : DP_LE09 : 2 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_LE09 : 2 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_LE09 : 2 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_LE09 : 2 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+
+(Rivulet)DP_LE09 : 2-SpitterSpider
+(Saint)DP_LE09 : 2-WhiteLizard
+(Inv)DP_LE09 : 2-Seeker, 2-Spider-5
+
+//DP_LE05
+DP_LE05 : 6-LanternMouse-8
+(Spear,Artificer,Red)DP_LE05 : 4-SpitterSpider-4, 5-Centiwing-3
+(Gourmand,White,Yellow)DP_LE05 : 5-hoverfly-6
+(Gourmand)DP_LE05 : 4-SpitterSpider-2, 4-BigSpider-2
+(White,Yellow)DP_LE05 : 4-BigSpider-4
+(Rivulet)DP_LE05 : 4-YellowLizard-4, 5-BigSpider-3
+(Saint)DP_LE05 : 4-ThornBug-4, 5-CicadaA-3, 5-CicadaB-3
+(Inv)DP_LE05 : 4-Spider-12, 4-SpitterSpider, 4-MotherSpider-2, 4-BigSpider-2, 5-Centiwing-2, hoverfly-2
+
+//DP_DE04
+DP_DE04 : 4-Mimic, 5-Mimic
+(Spear,Artificer,Red)DP_DE04 : 3-Centiwing-4
+(Gourmand,White,Yellow)DP_DE04 : 3-hoverfly-8
+(Rivulet)DP_DE04 : 3-BigSpider-4, 6-SpitterSpider
+(Saint)DP_DE04 : 3-CicadaA-4, 3-CicadaB-4, 6-WhiteLizard
+
+(Spear,Artificer,Red){MSC}LINEAGE : DP_DE04 : 6 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_DE04 : 6 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_DE04 : 6 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_DE04 : 6 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+
+(Inv)DP_DE04 : 4-Spider-12, 3-Centiwing-2, 3-hoverfly-4, 6-Seeker
+
+//DP_DE12
+(Spear,Artificer,Red)DP_DE12 : 4-Centiwing-2
+(Gourmand,White,Yellow)DP_DE12 : 4-hoverfly-4
+(Rivulet)DP_DE12 : 4-BigSpider-2
+(Saint)DP_DE12 : 4-CicadaA-2, 4-CicadaB-2
+(Inv)DP_DE12 : 4-Centiwing, 4-hoverfly-2, 4-Spider-5
+
+//DP_FE032
+DP_FE032 : 5-Mimic
+(Spear,Artificer,Red)DP_FE032 : 3-SpitterSpider-3
+(Gourmand)DP_FE032 : 3-SpitterSpider-1, 3-BigSpider-2
+(White,Yellow)DP_FE032 : 3-BigSpider-3
+(Rivulet)DP_FE032 : 3-YellowLizard-3
+(Saint)DP_FE032 : 3-ThornBug-3
+(Inv)DP_FE032 : 3-SpitterSpider, 3-MotherSpider-2, 3-BigSpider-2, 3-Spider-12
+
+(Spear,Artificer,Red){MSC}LINEAGE : DP_FE032 : 4 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_FE032 : 4 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_FE032 : 4 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_FE032 : 4 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+
+(Rivulet)DP_FE032 : 4-SpitterSpider
+(Saint)DP_FE032 : 4-WhiteLizard
+
+//DP_FE031
+DP_FE031 : 3-EggBug
+(Spear,Artificer,Red)DP_FE031 : 2-Centiwing-2, 4-Salamander
+(Gourmand,White,Yellow){MSC}DP_FE031 : 2-hoverfly-4, 4-EelLizard
+(White,Yellow){!MSC}DP_FE031 : 2-hoverfly-4, 4-Salamander
+
+(Rivulet)DP_FE031 : 4-BigSpider-2
+(Rivulet,Inv)LINEAGE : 2 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_FE031 : 2-CicadaA-2, 2-CicadaB-2, 4-WaterSpitter
+(Inv)DP_FE031 : 4-Centiwing, 4-hoverfly-2, 4-Spider-8
+
+//dry interior
+//DP_basiccon
+(Spear,Artificer,Red)DP_basiccon : 4-SpitterSpider-2, 5-SpitterSpider-2
+(Gourmand)DP_basiccon : 4-SpitterSpider-2, 5-BigSpider-2
+(White,Yellow)DP_basiccon : 4-BigSpider-2, 5-BigSpider-2
+(Rivulet)DP_basiccon : 4-YellowLizard-2, 5-YellowLizard-2
+(Saint)DP_basiccon : 4-ThornBug-2, 5-ThornBug-2
+(Inv)DP_basiccon : 4-SpitterSpider, 4-MotherSpider, 4-BigSpider, 5-SpitterSpider, 5-MotherSpider, 5-BigSpider
+
+//DP_simplecon
+(Spear,Artificer,Red){MSC}LINEAGE : DP_simplecon : 2 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_simplecon : 2 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_simplecon : 2 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_simplecon : 2 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+
+(Rivulet)DP_simplecon : 2-SpitterSpider
+(Saint)DP_simplecon : 2-WhiteLizard
+(Inv)DP_simplecon : 2-Seeker, 2-Spider-5
+
+//DP_IN03
+DP_IN03 : 4-LanternMouse-6, 5-surfaceswimmer-5
+(Inv)DP_IN03 : 6-Spider-5, 7-Spider-5, 8-Spider-5
+
+//DP_IN05
+DP_IN05 : 6-Mimic
+(Spear,Artificer,Red)DP_IN05 : 4-SpitterSpider, 5-SpitterSpider-2
+(Gourmand)DP_IN05 : 4-SpitterSpider, 5-BigSpider-2
+(White,Yellow)DP_IN05 : 4-BigSpider, 5-BigSpider-2
+(Rivulet)DP_IN05 : 4-YellowLizard, 5-YellowLizard-2
+(Saint)DP_IN05 : 4-ThornBug, 5-ThornBug-2
+(Inv)DP_IN05 : 5-SpitterSpider, 4-MotherSpider, 4-BigSpider, 5-Spider-12
+
+//DP_IN04
+DP_IN04 : 5-EggBug, 3-LanternMouse-3, 4-LanternMouse-3
+(Spear,Artificer,Red){MSC}LINEAGE : DP_IN04 : 6 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_IN04 : 6 : CyanLizard-0.7, Seeker-0
+(Spear,Artificer,Red){MSC}LINEAGE : DP_IN04 : 7 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_IN04 : 7 : CyanLizard-0.7, Seeker-0
+
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_IN04 : 6 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_IN04 : 6 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_IN04 : 7 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_IN04 : 7 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+
+(Rivulet)DP_IN04 : 6-SpitterSpider, 7-SpitterSpider
+(Saint)DP_IN04 : 6-WhiteLizard, 7-WhiteLizard
+(Inv)DP_IN04 : 6-Seeker, 7-Seeker, 3-Spider-3, 4-Spider-3, 5-Spider-3, 6-Spider-3, 7-Spider-3
+
+//DP_IN08
+DP_IN08 : 4-surfaceswimmer
+(Spear,Artificer,Red)DP_IN08 : 3-Salamander
+(Gourmand,White,Yellow){MSC}DP_IN08 : 3-EelLizard
+(White,Yellow){!MSC}DP_IN08 : 3-Salamander
+
+(Rivulet,Inv)LINEAGE : DP_IN08 : 3 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_IN08 : 3-WaterSpitter
+(Inv)DP_IN08 : 3-Spider-5
+
+//drowned interior
+//DP_FI02
+DP_FI02 : 3-surfaceswimmer-3
+(Inv)DP_FI02 : 2-Spider-3, 3-Spider-3
+
+//DP_FIA08
+(X-Rivulet,Saint,Inv)DP_FIA08 : 4-WaterBlob-2, 5-WaterBlob-2
+(Rivulet)DP_FIA08 : 4-Snail-2, 5-Snail-2
+(Saint,Inv)DP_FIA08 : 4-bouncingball-2, 5-bouncingball-2
+(Inv)DP_FIA08 : 4-Spider-5
+
+//DP_FI09
+DP_FIA09 : 3-TentaclePlant-{Ignorecycle}
+(X-Rivulet,Saint,Inv)DP_FIA09 : 4-WaterBlob-2
+(Rivulet)DP_FIA09 : 4-Snail-2
+(Saint,Inv)DP_FIA09 : 4-bouncingball-2
+(Inv)DP_FIA09 : 4-Spider-5
+
+//DP_FI04
+DP_FI04 : 2-TentaclePlant-{Ignorecycle}
+(Spear,Artificer,Red)DP_FI04 : 3-Salamander
+(Gourmand,White,Yellow){MSC}DP_FI04 : 3-EelLizard
+(White,Yellow){!MSC}DP_FI04 : 3-Salamander
+
+(Rivulet,Saint)DP_FI04 : 3-WaterSpitter
+(Inv)LINEAGE : DP_FI04 : 3 : BrotherLongLegs-0.75, DaddyLongLegs-0
+
+//DP_FIA07
+DP_FIA07 : 3-EggBug
+(Inv)DP_FIA07 : 3-Spider-5
+
+//DP_IN07
+(Inv)DP_IN07 : 4-Spider-6
+
+//flooded exterior
+//DP_FE02
+(Spear,Artificer,Red)DP_FE02 : 4-Salamander
+(Gourmand,White,Yellow){MSC}DP_FE02 : 4-EelLizard
+(White,Yellow){!MSC}DP_FE02 : 4-Salamander
+
+(Rivulet)DP_FE02 : 5-polliwog-2
+(Rivulet,Inv)LINEAGE : DP_FE02 : 4 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_FE02 : 4-WaterSpitter, 5-ThornBug-2
+(Spear,Artificer,Red)LINEAGE : DP_FE02 : 5 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer)LINEAGE : DP_FE02 : 5 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow)LINEAGE : DP_FE02 : 5 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow)LINEAGE : DP_FE02 : 5 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Inv)DP_FE02 : 5-BubbleWeaver-{Winter,Voidsea}-2
+
+//DP_TB01
+(X-Rivulet,Saint,Inv)DP_TB01 : 4-WaterBlob-2, 5-WaterBlob-2
+(Spear,Artificer,Red)DP_TB01 : 3-Salamander
+(Gourmand,White,Yellow){MSC}DP_TB01 : 3-EelLizard
+(White,Yellow){!MSC}DP_TB01 : 3-Salamander
+
+(Rivulet)DP_TB01 : 3-WaterSpitter, 4-Snail-2, 5-Snail-2
+(Saint)DP_TB01 : 3-WaterSpitter, 4-bouncingball-2, 5-bouncingball-2
+(Inv)DP_TB01 : 4-bouncingball-2, 5-bouncingball-2, 3-Spider-5
+(Inv)LINEAGE : DP_TB01 : 3 : BrotherLongLegs-0.75, DaddyLongLegs-0
+
+//DP_FE05
+DP_FE05 : 5-LanternMouse-3, 6-LanternMouse-3, 12-surfaceswimmer-5, 10-Mimic
+(X-White,Yellow)DP_FE05 : 17-Aquacenti
+(White,Yellow)LINEAGE : DP_FE05 : 17 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(X-Rivulet,Saint,Inv)DP_FE05 : 11-WaterBlob-4
+(Spear,Artificer,Red)LINEAGE : DP_FE05 : 9 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer)LINEAGE : DP_FE05 : 8 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+
+(Gourmand,White,Yellow)LINEAGE : DP_FE05 : 9 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow)LINEAGE : DP_FE05 : 8 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Rivulet)DP_FE05 : 9-polliwog, 7-polliwog, 11-Snail-4
+(Rivulet)LINEAGE : DP_FE05 : 8 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_FE05 : 7-ThornBug, 8-ThornBug, 11-bouncingball-4
+(Inv)DP_FE05 : 7-BubbleWeaver-{Winter,Voidsea}, 8-BubbleWeaver-{Winter,Voidsea}, 9-BubbleWeaver-{Winter,Voidsea}, 11-bouncingball-4, 10-Spider-12
+
+//DP_IN01
+DP_IN01 : 2-LanternMouse-6, 3-LanternMouse-6
+(Inv)DP_IN01 : 2-Spider-3, 3-Spider-3
+
+//DP_FE04
+(Spear,Artificer,Red)DP_FE04 : 4-Centiwing-3, 5-Salamander, 4-WaterBlob-3
+(Gourmand,White,Yellow){MSC}DP_FE04 : 4-hoverfly-6, 5-EelLizard, 4-WaterBlob-3
+(White,Yellow){!MSC}DP_FE04 : 4-hoverfly-6, 5-Salamander, 4-WaterBlob-3
+
+(Rivulet)DP_FE04 : 4-BigSpider-3, 4-Snail-3
+(Rivulet,Inv)LINEAGE : DP_FE04 : 5 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_FE04 : 4-CicadaA-3, 4-CicadaB-3, 5-WaterSpitter, 4-bouncingball-3
+(Inv)DP_FE04 : 4-Centiwing-2, 4-hoverfly-2, 4-bouncingball-3, 5-Spider-12
+
+//DP_FE01
+DP_FE01 : 6-TentaclePlant
+(Spear,Artificer,Red)LINEAGE : DP_FE01 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer)LINEAGE : DP_FE01 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow)LINEAGE : DP_FE01 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow)LINEAGE : DP_FE01 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Rivulet)DP_FE01 : 4-polliwog, 4-polliwog, 7-WaterSpitter
+(Saint)DP_FE01 : 4-ThornBug, 4-ThornBug, 7-WaterSpitter
+
+(Spear,Artificer,Red)DP_FE01 : 7-Salamander
+(Gourmand,White,Yellow){MSC}DP_FE01 : 7-EelLizard
+(White,Yellow){!MSC}DP_FE01 : 7-Salamander
+(Inv)DP_FE01 : 4-BubbleWeaver-{Winter,Voidsea}, 5-BubbleWeaver-{Winter,Voidsea}, 5-Spider-6
+(Inv)LINEAGE : DP_FE01 : 7 : BrotherLongLegs-0.75, DaddyLongLegs-0
+
+//DP_DE11
+(Spear,Artificer,Red)DP_DE11 : 2-Centiwing-4
+(Gourmand,White,Yellow)DP_DE11 : 2-hoverfly-8
+(Rivulet)DP_DE11 : 2-BigSpider-4
+(Saint)DP_DE11 : 2-CicadaA-4, CicadaB-4
+(Inv)DP_DE11 : 2-Centiwing-2, 2-hoverfly-4, 2-Spider-6
+
+//DP_FE08
+(X-Rivulet,Saint,Inv)DP_FE08 : 4-WaterBlob-3
+(Spear,Artificer,Red)DP_FE08 : 4-Salamander
+(Gourmand,White,Yellow){MSC}DP_FE08 : 4-EelLizard
+(White,Yellow){!MSC}DP_FE08 : 4-Salamander
+
+(Rivulet)DP_FE08 : 4-Snail-3
+(Rivulet,Inv)LINEAGE : DP_FE08 : 4 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_FE08 : 4-WaterSpitter, 4-bouncingball-3
+(Inv)DP_FE08 : 4-bouncingball-3, 4-Spider-6
+
+//the bog
+//DP_INA06
+DP_INA06 : 2-Lantern Mouse-6
+(Red){MSC}LINEAGE : DP_INA06 : 3 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_INA06 : 3 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_INA06 : 3 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_INA06 : 3 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+(Rivulet)DP_INA06 : 3-SpitterSpider
+(Saint)DP_INA06 : 3-WhiteLizard
+(Inv)DP_INA06 : 3-Seeker, 3-Spider-5
+
+//DP_FI11
+DP_FI11 : 3-Eggbug
+(Inv)DP_FI11 : 3-Spider-4
+
+//DP_LE03
+DP_LE03 : 2-surfaceswimmer-5, 4-TentaclePlant, 5-TentaclePlant
+(X-Rivulet,Saint,Inv)DP_LE03 : 2-WaterBlob-5
+(Spear,Artificer,Red)DP_LE03 : 2-Centiwing-4
+(Gourmand,White,Yellow)DP_LE03 : 2-hoverfly-8
+(Rivulet)DP_LE03 : 2-BigSpider-4, 3-polliwog-2, 2-Snail-5
+(Saint)DP_LE03 : 2-CicadaA-4, 2-CicadaB-4, 3-ThornBug-2, 2-bouncingball-5
+(Spear,Artificer,Red)LINEAGE : DP_LE03 : 3 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer)LINEAGE : DP_LE03 : 3 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow)LINEAGE : DP_LE03 : 3 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow)LINEAGE : DP_LE03 : 3 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Inv)DP_LE03 : 3-Spider-8, 2-bouncingball-5, 3-BubbleWeaver-{Winter,Voidsea}, 3-BubbleWeaver-{Winter,Voidsea}
+
+//DP_TBA06
+DP_TBA06 : 2-LanternMouse-8
+(Inv)DP_TBA06 : 2-Spider-12
+
+//DP_TB02
+DP_TB02 : 3-surfaceswimmer-3
+(Spear,Artificer,Red)DP_TB02 : 2-Salamander, 5-Salamander
+(Spear,Artificer,Red)LINEAGE : DP_TB02 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer)LINEAGE : DP_TB02 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow){MSC}DP_TB02 : 2-EelLizard, 5-EelLizard
+(White,Yellow){MSC}DP_TB02 : 2-Salamander, 5-Salamander
+(Red,Gourmand,White,Yellow)LINEAGE : DP_TB02 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow)LINEAGE : DP_TB02 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Rivulet)DP_TB02 : 5-WaterSpitter, 4-polliwog-2
+(Rivulet,Inv)LINEAGE : DP_TB02 : 2 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_TB02 : 2-WaterSpitter, 5-WaterSpitter, 4-ThornBug-2
+(Inv)DP_TB02 : 4-BubbleWeaver-{Winter,Voidsea}-2, 4-Spider-12
+(Inv)LINEAGE : DP_TB02 : 5 : BrotherLongLegs-0.75, DaddyLongLegs-0
+
+//DP_TB03
+DP_TB03 : 4-TentaclePlant-{Ignorecycle}, 5-LanternMouse-8, 5-Eggbug
+(X-Rivulet,Saint,Inv)DP_TB03 : 8-WaterBlob, 9-WaterBlob, 10-WaterBlob, 11-WaterBlob
+(Rivulet)DP_TB03 : 8-Snail, 9-Snail, 10-Snail, 11-Snail
+(Saint,Inv)DP_TB03 : 8-bouncingball, 9-bouncingball, 10-bouncingball, 11-bouncingball
+
+(Spear,Artificer,Red)DP_TB03 : 8-Salamander, 9-Salamander
+(Gourmand,White,Yellow){MSC}DP_TB03 : 8-EelLizard, 9-EelLizard
+(White,Yellow){!MSC}DP_TB03 : 8-Salamander, 9-Salamander
+
+(Rivulet)DP_TB03 : 8-WaterSpitter, 6-SpitterSpider, 7-SpitterSpider
+(Rivulet,Inv)LINEAGE : DP_TB03 : 9 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_TB03 : 8-WaterSpitter, 9-WaterSpitter, 6-WhiteLizard, 7-WhiteLizard
+
+(Spear,Artificer,Red){MSC}LINEAGE : DP_TB03 : 6 : ZoopLizard-0.75, CyanLizard-0.75, Seeker-0
+(Red){!MSC}LINEAGE : DP_TB03 : 6 : CyanLizard-0.75, Seeker-0
+(Spear,Artificer,Red){MSC}LINEAGE : DP_TB03 : 7 : ZoopLizard-0.75, CyanLizard-0.75, Seeker-0
+(Red){!MSC}LINEAGE : DP_TB03 : 7 : CyanLizard-0.75, Seeker-0
+
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_TB03 : 6 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_TB03 : 6 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_TB03 : 7 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_TB03 : 7 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+(Inv)DP_TB03 : 4-Spider-8, 5-Spider-8, 6-Seeker, 7-Seeker
+(Inv)LINEAGE : DP_TB03 : 8 : BrotherLongLegs-0.75, DaddyLongLegs-0
+
+//DP_TB08
+(Spear,Artificer,Red)DP_TB08 : 2-Centiwing
+(Gourmand,White,Yellow)DP_TB08 : 2-hoverfly-2
+(Rivulet)DP_TB08 : 2-BigSpider, 2-Snail-2
+(Saint)DP_TB08 : 2-CicadaA-2, 2-CicadaB, 2-bouncingball-2
+(Inv)DP_TB08 : 2-Centiwing, 2-hoverfly-2, 2-Spider-8, 2-bouncingball-2
+(X-Rivulet,Saint,Inv)DP_TB08 : 2-WaterBlob-2
+
+//DP_TB05
+(X-Rivulet,Saint,Inv)DP_TB05 : 3-WaterBlob-4
+(Rivulet)DP_TB05 : 3-Snail-4, 2-polliwog-2
+(Saint)DP_TB05 : 3-bouncingball-4, 2-ThornBug-2
+(Spear,Artificer,Red)LINEAGE : DP_TB05 : 2 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer)LINEAGE : DP_TB05 : 2 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow)LINEAGE : DP_TB05 : 2 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow)LINEAGE : DP_TB05 : 2 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Inv)DP_TB05 : 2-BubbleWeaver-{Winter,Voidsea}-3, 3-bouncingball-4
+
+//DP_TB07
+(Spear,Artificer,Red)DP_TB07 : 3-Salamander, 2-WaterBlob-3, 2-surfaceswimmer-4
+(Gourmand,White,Yellow){MSC}DP_TB07 : 3-EelLizard, 2-WaterBlob-3, 2-surfaceswimmer-4
+(White,Yellow){!MSC}DP_TB07 : 3-Salamander, 2-WaterBlob-3, 2-surfaceswimmer-4
+(Rivulet)DP_TB07 :  2-Snail-3, 2-surfaceswimmer-4
+(Rivulet,Inv)LINEAGE : DP_TB07 : 3 : BrotherLongLegs-0.75, DaddyLongLegs-0
+(Saint)DP_TB07 : 3-WaterSpitter, 2-bouncingball-3, 2-surfaceswimmer-4
+(Inv)DP_TB07 : 2-bouncingball-3, 2-Spider-8
+
+//DP_BOGGATE
+(Spear,Artificer,Red)DP_BOGGATE : 2-Centiwing, 3-Centiwing
+(Gourmand,White,Yellow)DP_BOGGATE : 2-hoverfly-2, 3-hoverfly-2
+(Rivulet)DP_BOGGATE : 2-BigSpider, 3-BigSpider
+(Saint)DP_BOGGATE : 2-CicadaA-2, 3-CicadaB-2
+(Inv)DP_BOGGATE : 2-Spider-4, 3-Spider-4, 2-Centiwing-2, 3-hoverfly-2
+END CREATURES
+BAT MIGRATION BLOCKAGES
+DP_FI04
+DP_FIA08
+DP_FI13
+END BAT MIGRATION BLOCKAGES
