@@ -1,11 +1,13 @@
 CONDITIONAL LINKS
-Rivulet : DP_BOGGATE : GATE_DP_SH : DISCONNECTED
-Rivulet : GATE_DP_SH : DP_BOGGATE : DISCONNECTED
+Rivulet,Saint : DP_BOGGATE : GATE_DP_SH : GATE_DP_CL
+Rivulet,Saint : GATE_DP_SH : DP_BOGGATE : DISCONNECTED
+Rivulet,Saint : GATE_DP_CL : 3 : DP_BOGGATE
 END CONDITIONAL LINKS
 ROOMS
 GATE_DS_DP : DISCONNECTED, DP_IN07 : GATE
 GATE_SB_DP : DISCONNECTED, DP_FI02 : GATE
 GATE_DP_SH : DISCONNECTED, DISCONNECTED, DP_BOGGATE : GATE
+GATE_DP_CL : DISCONNECTED, DISCONNECTED, DISCONNECTED : GATE
 
 //Improperly Named Rooms
 DP_basiccon : DP_LE05, DISCONNECTED, DP_IN03, DP_DE04
@@ -127,7 +129,7 @@ CREATURES
 {!MSC,#shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, FogVulture-0.75, KingVulture-0
 {!MSC,#!shrouded_assembly}LINEAGE : OFFSCREEN : 0 : Vulture-0.75, FatFireFly-0.75, KingVulture-0
 
-{#drainmites}OFFSCREEN : 0-DrainMite-40
+{#drainmites}OFFSCREEN : 0-DrainMite-35
 
 //sky exterior & east belltower
 //DP_bridgetosec
@@ -155,7 +157,7 @@ DP_belltower : 3-LanternMouse-6
 (Spear,Artificer,Red)DP_belltower : 4-SpitterSpider-3
 (Gourmand)DP_belltower : 4-SpitterSpider-1, 4-BigSpider-2
 (White,Yellow)DP_belltower : 4-BigSpider-3
-(Inv)DP_belltower : 3-Centiwing-2, 2-hoverfly, 4-Spider-12, 4-SpitterSpider, 4-MotherSpider, 4-BigSpider
+(Inv)DP_belltower : 3-Centiwing-2, 3-hoverfly, 4-Spider-12, 4-SpitterSpider, 4-MotherSpider, 4-BigSpider
 
 //DP_connectiontodarkex
 DP_connectiontodarkex : 4-EggBug
@@ -232,15 +234,15 @@ DP_LE11 : 5-EggBug
 (Inv)DP_LE11 : 3-Centiwing-2, 3-hoverfly-4, 4-Spider-12, 4-SpitterSpider, 4-MotherSpider, 4-BigSpider
 
 //DP_bellwall
-DP_bellwall : 3-LanternMouse-6
-(Spear,Artificer,Red){MSC}LINEAGE : DP_bellwall : 4 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
-(Red){!MSC}LINEAGE : DP_bellwall : 4 : CyanLizard-0.7, Seeker-0
-(Gourmand,White,Yellow){MSC}LINEAGE : DP_bellwall : 4 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
-(White,Yellow){!MSC}LINEAGE : DP_bellwall : 4 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
+DP_bellwall : 4-LanternMouse-6
+(Spear,Artificer,Red){MSC}LINEAGE : DP_bellwall : 5 : ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(Red){!MSC}LINEAGE : DP_bellwall : 5 : CyanLizard-0.7, Seeker-0
+(Gourmand,White,Yellow){MSC}LINEAGE : DP_bellwall : 5 : BlueLizard-0.7, ZoopLizard-0.7, CyanLizard-0.7, Seeker-0
+(White,Yellow){!MSC}LINEAGE : DP_bellwall : 5 : BlueLizard-0.7, WhiteLizard-0.7, CyanLizard-0.7, Seeker-0
 
-(Rivulet)DP_bellwall : 4-SpitterSpider
-(Saint)DP_bellwall : 4-WhiteLizard
-(Inv)DP_bellwall : 4-Seeker, 4-Spider-5
+(Rivulet)DP_bellwall : 5-SpitterSpider
+(Saint)DP_bellwall : 5-WhiteLizard
+(Inv)DP_bellwall : 5-Seeker, 4-Spider-5
 
 //the ruins
 //DP_brokensegment
@@ -345,8 +347,8 @@ DP_FE031 : 3-EggBug
 (Inv)DP_simplecon : 2-Seeker, 2-Spider-5
 
 //DP_IN03
-DP_IN03 : 4-LanternMouse-6, 5-surfaceswimmer-5
-(Inv)DP_IN03 : 6-Spider-5, 7-Spider-5, 8-Spider-5
+DP_IN03 : 5-LanternMouse-6, 6-surfaceswimmer-5
+(Inv)DP_IN03 : 7-Spider-6, 8-Spider-6
 
 //DP_IN05
 DP_IN05 : 6-Mimic
@@ -426,11 +428,21 @@ DP_FIA07 : 3-EggBug
 (Rivulet)DP_FE02 : 5-polliwog-2
 (Rivulet,Inv)LINEAGE : DP_FE02 : 4 : BrotherLongLegs-0.75, DaddyLongLegs-0
 (Saint)DP_FE02 : 4-WaterSpitter, 5-ThornBug-2
-(Spear,Artificer,Red)LINEAGE : DP_FE02 : 5 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Spear,Artificer)LINEAGE : DP_FE02 : 5 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Gourmand,White,Yellow)LINEAGE : DP_FE02 : 5 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Red,Gourmand,White,Yellow)LINEAGE : DP_FE02 : 5 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Inv)DP_FE02 : 5-BubbleWeaver-{Winter,Voidsea}-2
+
+(Spear,Artificer,Red){#bry.bubbleweavers}LINEAGE : DP_FE02 : 5 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer,Red){#!bry.bubbleweavers}DP_FE02 : 5-WaterSpitter
+
+(Spear,Artificer){#bry.bubbleweavers}LINEAGE : DP_FE02 : 5 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer){#!bry.bubbleweavers}DP_FE02 : 5-WaterSpitter
+
+(Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_FE02 : 5 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow){#!bry.bubbleweavers}DP_FE02 : 5-polliwog
+
+(Red,Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_FE02 : 5 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow){#!bry.bubbleweavers}DP_FE02 : 5-polliwog
+
+(Inv){#bry.bubbleweavers}DP_FE02 : 5-BubbleWeaver-{Winter,Voidsea}-2
+(Inv){#!bry.bubbleweavers}DP_FE02 : 5-WaterSpitter-2
 
 //DP_TB01
 (X-Rivulet,Saint,Inv)DP_TB01 : 4-WaterBlob-2, 5-WaterBlob-2
@@ -448,15 +460,25 @@ DP_FE05 : 5-LanternMouse-3, 6-LanternMouse-3, 12-surfaceswimmer-5, 10-Mimic
 (X-White,Yellow)DP_FE05 : 17-Aquacenti
 (White,Yellow)LINEAGE : DP_FE05 : 17 : BrotherLongLegs-0.75, DaddyLongLegs-0
 (X-Rivulet,Saint,Inv)DP_FE05 : 11-WaterBlob-4
-(Spear,Artificer,Red)LINEAGE : DP_FE05 : 9 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Spear,Artificer)LINEAGE : DP_FE05 : 8 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
 
-(Gourmand,White,Yellow)LINEAGE : DP_FE05 : 9 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Red,Gourmand,White,Yellow)LINEAGE : DP_FE05 : 8 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Spear,Artificer,Red){#bry.bubbleweavers}LINEAGE : DP_FE05 : 9 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer,Red){#!bry.bubbleweavers}DP_FE05 : 9-Glowpillar
+
+(Spear,Artificer){#bry.bubbleweavers}LINEAGE : DP_FE05 : 8 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer){#!bry.bubbleweavers}DP_FE05 : 8-Glowpillar
+
+(Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_FE05 : 9 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow){#!bry.bubbleweavers}DP_FE05 : 9-Glowpillar
+
+(Red,Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_FE05 : 8 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow){#!bry.bubbleweavers}DP_FE05 : 8-Glowpillar
+
 (Rivulet)DP_FE05 : 9-polliwog, 7-polliwog, 11-Snail-4
 (Rivulet)LINEAGE : DP_FE05 : 8 : BrotherLongLegs-0.75, DaddyLongLegs-0
 (Saint)DP_FE05 : 7-ThornBug, 8-ThornBug, 11-bouncingball-4
-(Inv)DP_FE05 : 7-BubbleWeaver-{Winter,Voidsea}, 8-BubbleWeaver-{Winter,Voidsea}, 9-BubbleWeaver-{Winter,Voidsea}, 11-bouncingball-4, 10-Spider-12
+(Inv)DP_FE05 : 11-bouncingball-4, 10-Spider-12
+(Inv){#bry.bubbleweavers}DP_FE05 : 7-BubbleWeaver-{Winter,Voidsea}, 8-BubbleWeaver-{Winter,Voidsea}, 9-BubbleWeaver-{Winter,Voidsea}
+(Inv){#!bry.bubbleweavers}DP_FE05 : 7-Glowpillar, 8-Glowpillar, 9-Glowpillar
 
 //DP_IN01
 DP_IN01 : 2-LanternMouse-6, 3-LanternMouse-6
@@ -474,17 +496,28 @@ DP_IN01 : 2-LanternMouse-6, 3-LanternMouse-6
 
 //DP_FE01
 DP_FE01 : 6-TentaclePlant
-(Spear,Artificer,Red)LINEAGE : DP_FE01 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Spear,Artificer)LINEAGE : DP_FE01 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Gourmand,White,Yellow)LINEAGE : DP_FE01 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Red,Gourmand,White,Yellow)LINEAGE : DP_FE01 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+
+(Spear,Artificer,Red){#bry.bubbleweavers}LINEAGE : DP_FE01 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer,Red){#!bry.bubbleweavers}DP_FE01 : 4-Glowpillar
+
+(Spear,Artificer){#bry.bubbleweavers}LINEAGE : DP_FE01 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer){#!bry.bubbleweavers}DP_FE01 : 4-Glowpillar
+
+(Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_FE01 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow){#!bry.bubbleweavers}DP_FE01 : 4-Glowpillar
+
+(Red,Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_FE01 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow){#!bry.bubbleweavers}DP_FE01 : 4-Glowpillar
+
 (Rivulet)DP_FE01 : 4-polliwog, 4-polliwog, 7-WaterSpitter
 (Saint)DP_FE01 : 4-ThornBug, 4-ThornBug, 7-WaterSpitter
+
+(Inv){#bry.bubbleweavers}DP_FE01 : 4-BubbleWeaver-{Winter,Voidsea}, 5-BubbleWeaver-{Winter,Voidsea}, 5-Spider-6
+(Inv){#!bry.bubbleweavers}DP_FE01 : 4-Glowpillar, 5-Glowpillar, 5-Spider-6
 
 (Spear,Artificer,Red)DP_FE01 : 7-Salamander
 (Gourmand,White,Yellow){MSC}DP_FE01 : 7-EelLizard
 (White,Yellow){!MSC}DP_FE01 : 7-Salamander
-(Inv)DP_FE01 : 4-BubbleWeaver-{Winter,Voidsea}, 5-BubbleWeaver-{Winter,Voidsea}, 5-Spider-6
 (Inv)LINEAGE : DP_FE01 : 7 : BrotherLongLegs-0.75, DaddyLongLegs-0
 
 //DP_DE11
@@ -527,11 +560,21 @@ DP_LE03 : 2-surfaceswimmer-5, 4-TentaclePlant, 5-TentaclePlant
 (Gourmand,White,Yellow)DP_LE03 : 2-hoverfly-8
 (Rivulet)DP_LE03 : 2-BigSpider-4, 3-polliwog-2, 2-Snail-5
 (Saint)DP_LE03 : 2-CicadaA-4, 2-CicadaB-4, 3-ThornBug-2, 2-bouncingball-5
-(Spear,Artificer,Red)LINEAGE : DP_LE03 : 3 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Spear,Artificer)LINEAGE : DP_LE03 : 3 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Red,Gourmand,White,Yellow)LINEAGE : DP_LE03 : 3 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Gourmand,White,Yellow)LINEAGE : DP_LE03 : 3 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Inv)DP_LE03 : 3-Spider-8, 2-bouncingball-5, 3-BubbleWeaver-{Winter,Voidsea}, 3-BubbleWeaver-{Winter,Voidsea}
+
+(Spear,Artificer,Red){#bry.bubbleweavers}LINEAGE : DP_LE03 : 3 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer,Red){#!bry.bubbleweavers}DP_LE03 : 3-Glowpillar
+
+(Spear,Artificer){#bry.bubbleweavers}LINEAGE : DP_LE03 : 3 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer){#!bry.bubbleweavers}DP_LE03 : 3-Glowpillar
+
+(Red,Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_LE03 : 3 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow){#!bry.bubbleweavers}DP_LE03 : 3-Glowpillar
+
+(Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_LE03 : 3 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow){#!bry.bubbleweavers}DP_LE03 : 3-Glowpillar
+
+(Inv){#bry.bubbleweavers}DP_LE03 : 3-Spider-8, 2-bouncingball-5, 3-BubbleWeaver-{Winter,Voidsea}, 3-BubbleWeaver-{Winter,Voidsea}
+(Inv){#!bry.bubbleweavers}DP_LE03 : 3-Spider-8, 2-bouncingball-5, 3-Glowpillar, 3-Glowpillar
 
 //DP_TBA06
 DP_TBA06 : 2-LanternMouse-8
@@ -540,16 +583,28 @@ DP_TBA06 : 2-LanternMouse-8
 //DP_TB02
 DP_TB02 : 3-surfaceswimmer-3
 (Spear,Artificer,Red)DP_TB02 : 2-Salamander, 5-Salamander
-(Spear,Artificer,Red)LINEAGE : DP_TB02 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Spear,Artificer)LINEAGE : DP_TB02 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
 (Gourmand,White,Yellow){MSC}DP_TB02 : 2-EelLizard, 5-EelLizard
-(White,Yellow){MSC}DP_TB02 : 2-Salamander, 5-Salamander
-(Red,Gourmand,White,Yellow)LINEAGE : DP_TB02 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Gourmand,White,Yellow)LINEAGE : DP_TB02 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Rivulet)DP_TB02 : 5-WaterSpitter, 4-polliwog-2
+(White,Yellow){!MSC}DP_TB02 : 2-Salamander, 5-Salamander
 (Rivulet,Inv)LINEAGE : DP_TB02 : 2 : BrotherLongLegs-0.75, DaddyLongLegs-0
+
+(Spear,Artificer,Red){#bry.bubbleweavers}LINEAGE : DP_TB02 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer,Red){#!bry.bubbleweavers}DP_TB02 : 4-Glowpillar
+
+(Spear,Artificer){#bry.bubbleweavers}LINEAGE : DP_TB02 : 4 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer){#!bry.bubbleweavers}DP_TB02 : 4-Glowpillar
+
+(Red,Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_TB02 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow){#!bry.bubbleweavers}DP_TB02 : 4-Glowpillar
+
+(Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_TB02 : 4 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow){#!bry.bubbleweavers}DP_TB02 : 4-Glowpillar
+
 (Saint)DP_TB02 : 2-WaterSpitter, 5-WaterSpitter, 4-ThornBug-2
-(Inv)DP_TB02 : 4-BubbleWeaver-{Winter,Voidsea}-2, 4-Spider-12
+(Rivulet)DP_TB02 : 5-WaterSpitter, 4-polliwog-2
+
+(Inv){#bry.bubbleweavers}DP_TB02 : 4-BubbleWeaver-{Winter,Voidsea}-2, 4-Spider-12
+(Inv){#!bry.bubbleweavers}DP_TB02 : 4-Glowpillar-2, 4-Spider-12
+
 (Inv)LINEAGE : DP_TB02 : 5 : BrotherLongLegs-0.75, DaddyLongLegs-0
 
 //DP_TB03
@@ -590,11 +645,21 @@ DP_TB03 : 4-TentaclePlant-{Ignorecycle}, 5-LanternMouse-8, 5-Eggbug
 (X-Rivulet,Saint,Inv)DP_TB05 : 3-WaterBlob-4
 (Rivulet)DP_TB05 : 3-Snail-4, 2-polliwog-2
 (Saint)DP_TB05 : 3-bouncingball-4, 2-ThornBug-2
-(Spear,Artificer,Red)LINEAGE : DP_TB05 : 2 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Spear,Artificer)LINEAGE : DP_TB05 : 2 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
-(Red,Gourmand,White,Yellow)LINEAGE : DP_TB05 : 2 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Gourmand,White,Yellow)LINEAGE : DP_TB05 : 2 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
-(Inv)DP_TB05 : 2-BubbleWeaver-{Winter,Voidsea}-3, 3-bouncingball-4
+
+(Spear,Artificer,Red){#bry.bubbleweavers}LINEAGE : DP_TB05 : 2 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer,Red){#!bry.bubbleweavers}DP_TB05 : 2-WaterSpitter
+
+(Spear,Artificer){#bry.bubbleweavers}LINEAGE : DP_TB05 : 2 : SapphiricWeaver-0.7, SapphiricWeaver-{Winter}-0.7, SapphiricWeaver-{Winter,Voidsea}-0
+(Spear,Artificer){#!bry.bubbleweavers}DP_TB05 : 2-WaterSpitter
+
+(Red,Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_TB05 : 2 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Red,Gourmand,White,Yellow){#!bry.bubbleweavers}DP_TB05 : 2-polliwog
+
+(Gourmand,White,Yellow){#bry.bubbleweavers}LINEAGE : DP_TB05 : 2 : BubbleWeaver-0.7, BubbleWeaver-{Winter}-0.7, BubbleWeaver-{Winter,Voidsea}-0
+(Gourmand,White,Yellow){#!bry.bubbleweavers}DP_TB05 : 2-polliwog
+
+(Inv){#bry.bubbleweavers}DP_TB05 : 2-BubbleWeaver-{Winter,Voidsea}-3, 3-bouncingball-4
+(Inv){#!bry.bubbleweavers}DP_TB05 : 2-WaterSpitter-3, 3-bouncingball-4
 
 //DP_TB07
 (Spear,Artificer,Red)DP_TB07 : 3-Salamander, 2-WaterBlob-3, 2-surfaceswimmer-4
